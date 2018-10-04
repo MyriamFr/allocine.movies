@@ -1,0 +1,47 @@
+action (SelectMovie) {
+  description (Action to select a movie in a list of results)
+  type (Constructor)
+  
+  collect {
+    
+    // list of results for the previous step: SearchMovie
+    input (searchMovieResults) {
+      type (SearchMovieResults) min (Required) max (One)
+    }
+    
+    // keyword for selection: SelectIndex || MovieTitle
+    input-group (selectKeyword)
+    {
+      requires (OneOf)
+      collect
+      {
+        input (selectIndex) {
+          type (SelectIndex) min (Optional) max (One)   
+        }
+        input (movieTitle) {
+          type (MovieTitle) min (Optional) max (One)
+        }
+      }
+    }
+    
+  }
+  
+  output (SelectMovieResults)
+  {
+    throws{
+      error (IndexOut) {
+        on-catch {
+          halt {
+            dialog {
+              template-macro (Allocine_2_2_SelectMovie_SelectIndex_Valid_No)
+              // {
+                // param (selectIndex) { expression(selectIndex) }
+                // param (totalCount) { expression (searchMovieResults.moviesConnection.totalCount) }
+              // }
+            }
+          }
+        }
+      }
+    }
+  }     
+}

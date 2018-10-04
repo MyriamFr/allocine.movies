@@ -1,0 +1,9 @@
+structure (CastMemberConnection) {
+  description (__DESCRIPTION__)
+  property (totalCount) {
+    type (TotalCount) min (Optional) max (One)
+  }
+  property (edges) {
+    type (CastMember) min (Optional) max (Many)
+  }
+}

@@ -1,0 +1,3 @@
+text (AuthorName) {
+  description (__DESCRIPTION__)
+}

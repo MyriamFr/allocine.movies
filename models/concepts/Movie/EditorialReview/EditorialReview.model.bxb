@@ -1,0 +1,9 @@
+structure (EditorialReview) {
+  description (__DESCRIPTION__)
+  property (body) {
+    type (Body) min (Optional) max (One)
+  }
+  property (ratingScore) {
+    type (RatingScore) min (Optional) max (One)
+  }
+}

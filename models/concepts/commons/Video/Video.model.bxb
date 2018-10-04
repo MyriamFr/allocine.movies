@@ -1,0 +1,21 @@
+structure (Video) {
+  description (__DESCRIPTION__)
+  property (title) {
+    type (VideoTitle) min (Optional) max (One)
+  }
+  property (duration) {
+    type (VideoDuration) min (Optional) max (One)
+  }
+  property (snapshot) {
+    type (InternalImage) min (Optional) max (One)
+  }
+  property (type) {
+    type (VideoType) min (Optional) max (One)
+  }
+  property (files) {
+    type (VideoFile) min (Optional) max (One)
+  }
+  property (languages) {
+    type (Language) min (Optional) max (One)
+  }
+}

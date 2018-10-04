@@ -1,0 +1,9 @@
+structure (CreditsMember) {
+  description (__DESCRIPTION__)
+  property (person) {
+    type (Person) min (Optional) max (One)
+  }
+  property (activity) {
+    type (PersonActivity) min (Optional) max (One)
+  }
+}

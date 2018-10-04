@@ -1,0 +1,4 @@
+integer (SelectIndex) {
+  description (Index of an element in a list of results)
+  features { transient }
+}

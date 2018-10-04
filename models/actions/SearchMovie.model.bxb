@@ -1,0 +1,41 @@
+action (SearchMovie) {
+  description (__DESCRIPTION__)
+  type (Search)
+  
+  collect {
+    input-group (movieKeywords)
+    {  
+      requires (OneOrMoreOf)
+      
+      collect 
+      {
+        // recherche un film
+        input (movieTitle) {
+          type (MovieTitle) min (Required) max (One)
+          validate {
+            if (!exists (movieTitle)) {
+              prompt {
+                prompt-behavior (AlwaysElicitation)
+              }
+            }
+          }
+        }
+        
+        // veux connaître la date de sortie
+        // input (releaseDate) {
+        //   type (ReleaseDate) min (Optional) max (One)
+        // }
+
+        // veut savoir qui joue dedans
+        // input (castMember) {
+        //   type (CastMember) min (Optional) max (One)
+        // }
+        
+        // veux connaître les notes input
+        // input ()
+      }
+    }
+  }
+  
+  output (SearchMovieResults)
+}

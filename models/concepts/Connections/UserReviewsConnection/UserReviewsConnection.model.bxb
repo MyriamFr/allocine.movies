@@ -1,0 +1,12 @@
+structure (UserReviewsConnection) {
+  description (__DESCRIPTION__)
+  property (totalCount) {
+    type (TotalCount) min (Optional) max (One)
+  }
+  property (ratingScore) {
+    type (RatingScore) min (Optional) max (One)
+  }
+  property (edges) {
+    type (UserReview) min (Optional) max (Many)
+  }
+}

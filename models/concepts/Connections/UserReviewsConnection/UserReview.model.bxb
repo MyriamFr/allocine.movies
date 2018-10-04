@@ -1,0 +1,19 @@
+structure (UserReview) {
+  description (__DESCRIPTION__)
+  
+  property (author) {
+    type (User) min (Optional) max (One)
+  }
+  property (body) {
+    type (Body) min (Optional) max (One)
+  }
+  property (ratingScore) {
+    type (RatingScore) min (Optional) max (One)
+  }
+  property (createdAt) {
+    type (CreatedAt) min (Optional) max (One)
+  }
+  property (status) {
+    type (UserReviewStatus) min (Optional) max (One)
+  }
+}

@@ -1,0 +1,17 @@
+structure (SearchMovieResults) {
+  description (__DESCRIPTION__)
+  
+  // ACTION INPUTS
+  property (movieTitle) {
+    type (MovieTitle) min (Required) max (One)
+  }
+  
+  // ACTION OUTPUTS
+  property (moviesConnection) {
+    type (MoviesConnection) min (Optional) max (One)
+  }
+  
+  property (resultStatus) {
+    type (ResultStatus) min (Optional) max (One)
+  }
+}

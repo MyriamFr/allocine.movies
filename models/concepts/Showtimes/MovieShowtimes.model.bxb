@@ -1,0 +1,10 @@
+structure (MovieShowtimes) {
+  description (__DESCRIPTION__)
+  
+  property (movie) {
+    type (Movie) min (Required) max (One)
+  }
+  property (showtimes) {
+    type (Showtime) min (Optional) max (Many)
+  }
+}

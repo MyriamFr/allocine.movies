@@ -1,0 +1,13 @@
+structure (MovieShowtimesByTheater) {
+  description (__DESCRIPTION__)
+  
+  property (movie) {
+    type (Movie) min (Optional) max (One)
+  }
+  property (theater) {
+    type (Theater) min (Optional) max (One)
+  }
+  property (showtimes) {
+    type (Showtime) min (Optional) max (Many)
+  }
+}

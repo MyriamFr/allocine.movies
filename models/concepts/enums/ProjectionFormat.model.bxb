@@ -1,0 +1,12 @@
+enum (ProjectionFormat) {
+  description (__DESCRIPTION__)
+  symbol (F_2D)
+  symbol (F_3D)
+  symbol (F_4K)
+  symbol (F_70MM)
+  symbol (ANALOG)
+  symbol (DIGITAL)
+  symbol (IMAX)
+  symbol (IMAX3D)
+  symbol (IMAX70MM)
+}

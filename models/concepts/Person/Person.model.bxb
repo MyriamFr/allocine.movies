@@ -1,0 +1,12 @@
+structure (Person) {
+  description (__DESCRIPTION__)
+  property (firstName) {
+    type (FirstName) min (Required) max (One)
+  }
+  property (lastName) {
+    type (LastName) min (Required) max (One)
+  }
+  property (picture) {
+    type (InternalImage) min (Optional) max (One)
+  }
+}

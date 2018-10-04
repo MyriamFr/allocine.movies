@@ -1,0 +1,6 @@
+structure (VideoFile) {
+  description (__DESCRIPTION__)
+  property (url) {
+    type (Url) min (Optional) max (One)
+  }
+}

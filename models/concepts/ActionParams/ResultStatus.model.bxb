@@ -1,0 +1,3 @@
+integer (ResultStatus) {
+  description (__DESCRIPTION__)
+}

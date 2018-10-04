@@ -1,0 +1,19 @@
+structure (SelectMovieResults) {
+  description (__DESCRIPTION__)
+  
+  // INPUT = SelectMovieParams
+  property (searchMovieResults) {
+    type (SearchMovieResults) min (Optional) max (One)
+  }
+  property (selectIndex) {
+    type (SelectIndex) min (Required) max (One)
+  }
+  
+  // OUTPUT
+  property (movie) {
+    type (Movie) min (Optional) max (One)
+  }
+  property (resultStatus) {
+    type (ResultStatus) min (Optional) max (One)
+  }
+}

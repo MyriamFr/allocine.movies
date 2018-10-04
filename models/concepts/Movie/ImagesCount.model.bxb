@@ -1,0 +1,3 @@
+integer (ImagesCount) {
+  description (__DESCRIPTION__)
+}

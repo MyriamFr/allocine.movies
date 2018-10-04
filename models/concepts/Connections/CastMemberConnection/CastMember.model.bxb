@@ -1,0 +1,9 @@
+structure (CastMember) {
+  description (__DESCRIPTION__)
+  property (actor) {
+    type (Person) min (Optional) max (One)
+  }
+  property (role) {
+    type (Role) min (Optional) max (One)
+  }
+}

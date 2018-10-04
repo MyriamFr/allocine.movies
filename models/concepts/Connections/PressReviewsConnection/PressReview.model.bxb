@@ -1,0 +1,19 @@
+structure (PressReview) {
+  description (__DESCRIPTION__)
+  
+  property (company) {
+    type (PressCompany) min (Optional) max (One)
+  }
+  property (authorName) {
+    type (AuthorName) min (Optional) max (One)
+  }
+  property (body) {
+    type (Body) min (Optional) max (One)
+  }
+  property (ratingScore) {
+    type (RatingScore) min (Optional) max (One)
+  }
+  property (url) {
+    type (Url) min (Optional) max (One)
+  }
+}

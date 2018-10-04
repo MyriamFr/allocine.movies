@@ -1,0 +1,9 @@
+structure (CreditsConnection) {
+  description (__DESCRIPTION__)
+  property (totalCount) {
+    type (TotalCount) min (Optional) max (One)
+  }
+  property (edges) {
+    type (CreditsMember) min (Optional) max (Many)
+  }
+}

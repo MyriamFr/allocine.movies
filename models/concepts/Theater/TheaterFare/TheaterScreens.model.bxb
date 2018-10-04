@@ -1,0 +1,9 @@
+structure (TheaterScreens) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (TheaterScreenName) min (Optional) max (One)
+  }
+  property (handicapAccess) {
+    type (HandicapAccess) min (Optional) max (One)
+  }
+}

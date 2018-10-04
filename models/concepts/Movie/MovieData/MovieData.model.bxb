@@ -1,0 +1,9 @@
+structure (MovieData) {
+  description (__DESCRIPTION__)
+  property (budget) {
+    type (Budget) min (Optional) max (One)
+  }
+  property (productionYear) {
+    type (ProductionYear) min (Optional) max (One)
+  }
+}

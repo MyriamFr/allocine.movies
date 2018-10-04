@@ -1,0 +1,7 @@
+text (RunTime) {
+  description (__DESCRIPTION__)
+}
+// structure (RunTime) {
+//   description (__DESCRIPTION__)
+//   extends (time.DurationPeriod)
+// }

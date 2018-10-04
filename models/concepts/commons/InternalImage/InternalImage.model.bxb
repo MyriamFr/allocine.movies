@@ -1,0 +1,15 @@
+structure (InternalImage) {
+  description (__DESCRIPTION__)
+  property (path) {
+    type (Path) min (Optional) max (One)
+  }
+  property (publicationDate) {
+    type (DateTime) min (Optional) max (One)
+  }
+  property (url) {
+    type (Url) min (Optional) max (One)
+  }
+  property (copyright) {
+    type (Copyright) min (Optional) max (One)
+  }
+}

@@ -1,0 +1,16 @@
+structure (Showtime) {
+  description (__DESCRIPTION__)
+  
+  property (startsAt) {
+    type (StartsAt) min (Optional) max (One)
+  }
+  property (format) {
+    type (ProjectionFormat) min (Optional) max (One)
+  }
+  property (version) {
+    type (Language) min (Optional) max (One)
+  }
+  property (ticketingURL) {
+    type (Url) min (Optional) max (One)
+  }
+}

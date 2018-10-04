@@ -1,0 +1,78 @@
+structure (Movie) {
+  description (__DESCRIPTION__)
+  property (id) {
+    type (ID) min (Required) max (One)
+  }
+  property (hasShowtimes) {
+    type (HasShowtimes) min (Optional) max (One)
+  }
+  property (title) {
+    type (MovieTitle) min (Required) max (One)
+  }
+  // property (originalTitle) {
+  //   type (OriginalTitle) min (Optional) max (One)
+  // }
+  property (type) {  // infos techniques
+    type (MovieType) min (Optional) max (One)
+  }
+  // property (languages) {  // infos techniques
+  //   type (Language) min (Optional) max (Many)
+  // }
+  property (synopsis) {
+    type (Synopsis) min (Optional) max (One)
+  }
+  property (poster) {
+    type (InternalImage) min (Optional) max (One)
+  }
+  property (genres) {
+    type (Genre) min (Optional) max (Many)
+  }
+  property (data) {  // infos techniques
+    type (MovieData) min (Optional) max (One)
+  }
+  property (cast) {
+    type (CastMemberConnection) min (Optional) max (One)
+  }
+  property (credits) {
+    type (CreditsConnection) min (Optional) max (One)
+  }
+  property (runTime) {
+    type (RunTime) min (Optional) max (One)
+  }
+  // property (companies) {  // infos techniques
+  //   type (MovieCompany) min (Optional) max (Many)
+  // }
+  property (countries) {
+    type (Countries) min (Optional) max (Many)
+  }
+  // property (videos) {
+  //   type (Video) min (Optional) max (Many)
+  // }
+  // property (videosCount) {
+  //   type (VideosCount) min (Optional) max (One)
+  // }
+  // property (images) {
+  //   type (Image) min (Optional) max (Many)
+  // }
+  property (imagesCount) {
+    type (ImagesCount) min (Optional) max (One)
+  }
+  property (releaseDate) {
+    type (ReleaseDate) min (Optional) max (One)
+  }
+  property (pressReviews) {
+    type (PressReviewsConnection) min (Optional) max (One)
+  }
+  property (userReviews) {
+    type (UserReviewsConnection) min (Optional) max (One)
+  }
+  // property (editorialReviews) {
+  //   type (EditorialReview) min (Optional) max (Many)
+  // }
+  // property (selections) {
+  //   type (FestivalSelection) min (Optional) max (Many)
+  // }
+  // property (showtimesDates) {
+  //   type (ShowtimesDate) min (Optional) max (Many)
+  // }
+}

@@ -1,0 +1,12 @@
+structure (PressReviewsConnection) {
+  description (__DESCRIPTION__)
+  property (totalCount) {
+    type (TotalCount) min (Optional) max (One)
+  }
+  property (ratingScore) {
+    type (RatingScore) min (Optional) max (One)
+  }
+  property (edges) {
+    type (PressReview) min (Optional) max (Many)
+  }
+}

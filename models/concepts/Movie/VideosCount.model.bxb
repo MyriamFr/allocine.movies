@@ -1,0 +1,3 @@
+integer (VideosCount) {
+  description (__DESCRIPTION__)
+}

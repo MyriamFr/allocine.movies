@@ -1,0 +1,8 @@
+enum (LoyaltyCards) {
+  description (__DESCRIPTION__)
+  symbol (CCU)
+  symbol (CINE_CARTE_CIP)
+  symbol (CINECHEQUE)
+  symbol (LE_PASS)
+  symbol (UGC_ILLIMITE)
+}

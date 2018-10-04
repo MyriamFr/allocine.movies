@@ -1,0 +1,10 @@
+structure (MoviesConnection) {
+  description (__DESCRIPTION__)
+  
+  property (totalCount) {
+    type (TotalCount) min (Required) max (One)
+  }
+  property (movies) {
+    type (Movie) min (Optional) max (Many)
+  }
+}

@@ -1,0 +1,64 @@
+action (SearchShowtimesByTheater) {
+  
+  description (__DESCRIPTION__)
+  type (Search)
+  
+  // recherche par salle : movieTitle + theaterName + fromTime
+  // recherche par ville : movieTitle + cityName + fromTime
+  
+  collect {
+    input (movieTitle) {
+      type (MovieTitle) min (Required) max (One)
+      validate {
+        if (!exists (movieTitle)) {
+          prompt {
+            prompt-behavior (AlwaysElicitation)
+          }
+        }
+      }
+    }
+    
+    input (theaterName) {
+      type (TheaterName) min (Optional) max (One)
+      validate {
+        if (!exists (theaterName)) {
+          prompt {
+            prompt-behavior (AlwaysElicitation)
+          }
+        }
+      }
+    }
+        // computed-input (current_city) {
+        //  type (geo.LocalityName)
+        //  max (One)
+        //  compute {
+        //    intent {
+        //      goal:geo.ReverseGeocode
+        //      subplan {
+        //        goal:geo.CurrentLocation
+        //      }
+        //   }
+        //  }
+        // }
+
+    input-group (time)
+    {
+      requires (ZeroOrOneOf)
+      collect
+      {
+        input (fromTime) {
+          type (DateTime) min (Optional) max (One)
+          default-init {
+            intent {
+              goal: viv.time.DateTime
+              value { viv.time.NamedTime (Now) }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  
+  output (SearchShowtimesByTheaterResults)
+}

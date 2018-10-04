@@ -1,0 +1,3 @@
+boolean (HasShowtimes) {
+  description (__DESCRIPTION__)
+}

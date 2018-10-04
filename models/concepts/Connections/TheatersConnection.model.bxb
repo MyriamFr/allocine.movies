@@ -1,0 +1,9 @@
+structure (TheatersConnection) {
+  description (A list of Theater objects)
+  property (totalCount) {
+    type (TotalCount) min (Optional) max (One)
+  }
+  property (theaters) {
+    type (Theater) min (Optional) max (Many)
+  }
+}

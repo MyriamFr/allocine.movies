@@ -1,0 +1,13 @@
+enum (MovieType) {
+  description (__DESCRIPTION__)
+  symbol (FEATURE_FILM)
+  symbol (MEDIUM_LENGTH_FILM)
+  symbol (SHORT_FILM)
+  symbol (TV_MOVIE)
+  symbol (SERIAL)
+  symbol (ANTHOLOGY_FILM)
+  symbol (EPISODE)
+  symbol (BRAND_CONTENT)
+  symbol (COMMERCIAL)
+  symbol (SPECIAL_EVENT)
+}

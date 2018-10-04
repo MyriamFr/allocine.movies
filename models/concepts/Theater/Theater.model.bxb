@@ -1,0 +1,42 @@
+structure (Theater) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (TheaterName) min (Optional) max (One)
+  }
+  property (location) {
+    type (Location) min (Optional) max (One)
+  }
+  property (theaterCircuits) {
+    type (TheaterCircuit) min (Optional) max (One)
+  }
+  // property (companies) {
+  //   type (EntityCompany) min (Optional) max (Many)
+  // }
+  property (country) {
+    type (Country) min (Optional) max (One)
+  }
+  property (screenNumber) {
+    type (ScreenNumber) min (Optional) max (One)
+  }
+  property (seatNumber) {
+    type (SeatNumber) min (Optional) max (One)
+  }
+  property (loyaltyCards) {
+    type (LoyaltyCard) min (Optional) max (Many)
+  }
+  property (fares) {
+    type (TheaterFare) min (Optional) max (Many)
+  }
+  property (poster) {
+    type (InternalImage) min (Optional) max (One)
+  }
+  property (hasPreview) {
+    type (HasPreview) min (Optional) max (One)
+  }
+  property (showtimesDates) {
+    type (ShowtimesDates) min (Optional) max (Many)
+  }
+  // property (closestRestaurants) {
+  //   type (TheaterClosestRestaurants) min (Optional) max (Many)
+  // }
+}

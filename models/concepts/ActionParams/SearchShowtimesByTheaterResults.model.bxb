@@ -1,0 +1,25 @@
+structure (SearchShowtimesByTheaterResults) {
+  description (__DESCRIPTION__)
+  
+  // ACTION INPUTS
+  property (movieTitle) {
+    type (MovieTitle) min (Required) max (One)
+  }
+  property (theaterName) {
+    type (TheaterName) min (Optional) max (One)
+  }
+  property (fromTime) {
+    type (DateTime) min (Optional) max (One)
+  }
+  
+  // ACTION OUTPUTS
+  // property (showtimesByCity) {  // séances d'un film dans une ville
+  //   type (ShowtimesByCity) min (Optional) max (One)
+  // }
+  property (showtimesByTheater) {  // séances d'un film dans une salle de ciné
+    type (ShowtimesByTheater) min (Optional) max (Many)
+  }
+  property (resultStatus) {
+    type (ResultStatus) min (Optional) max (One)
+  }
+}

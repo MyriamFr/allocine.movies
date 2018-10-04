@@ -1,0 +1,4 @@
+structure (DateTime) {
+  description (__DESCRIPTION__)
+  extends (time.DateTime)
+}

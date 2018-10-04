@@ -1,0 +1,9 @@
+structure (TheaterFarePrice) {
+  description (__DESCRIPTION__)
+  property (displayPrice) {
+    type (DisplayPrice) min (Optional) max (One)
+  }
+  property (screens) {
+    type (TheaterScreens) min (Optional) max (One)
+  }
+}

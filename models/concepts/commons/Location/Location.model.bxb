@@ -1,0 +1,18 @@
+structure (Location) {
+  description (__DESCRIPTION__)
+  property (address) {
+    type (Address) min (Optional) max (One)
+  }
+  property (zip) {
+    type (ZipCode) min (Optional) max (One)
+  }
+  property (city) {
+    type (City) min (Optional) max (One)
+  }
+  property (country) {
+    type (Country) min (Optional) max (One)
+  }
+  property (region) {
+    type (Region) min (Optional) max (One)
+  }
+}
