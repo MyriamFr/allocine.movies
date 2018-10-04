@@ -1,0 +1,63 @@
+<layout-macro-def id="creditsMember">
+  <params>
+    <param name="creditsMember" type="CreditsMember" min="Optional" max="One"/>
+  </params>
+  
+  <content>
+    {{#if exists(creditsMember)}}
+      <div class="creditsMember">
+        <table>
+        
+          <tr>
+            <td>
+              {{#if exists(creditsMember.person)}}
+                <span class="creditsMemberName">
+                  {{#if exists(creditsMember.person.firstName)}}
+                    {{creditsMember.person.firstName}}
+                  {{/if}}
+                  {{#if exists(creditsMember.person.lastName)}}
+                    &nbsp;{{creditsMember.person.lastName}}
+                  {{/if}}
+                </span>
+              {{/if}}
+            </td>
+            
+            <td>
+              {{#if exists(creditsMember.activity)}}
+                Producer
+                <span class="creditsMemberActivity">
+                  Producer {{creditsMember.activity}}
+                </span>
+              {{/if}}
+            </td>
+          </tr>
+          
+        </table>
+      </div>
+    {{/if}}
+  </content>
+  
+  <style>
+    table {
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+      border-spacing: 5px;
+      border-top: 1px solid #f0f0f0;
+      padding: 0;
+    }
+    tr {
+      border-bottom: 1px solid #f0f0f0;
+    }
+    td {
+      padding: 2%;
+      margin: 0;
+      text-align: left;
+      vertical-align: center;
+    }
+    .creditsMemberActivity {
+      color: #778989;
+      font-size: $font_label;
+    }
+  </style>
+</layout-macro-def>

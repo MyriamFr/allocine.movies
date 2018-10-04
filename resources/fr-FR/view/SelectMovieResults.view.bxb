@@ -1,0 +1,50 @@
+result-view {
+  
+  match {
+    SelectMovieResults (this)
+  }
+  
+  message
+  {
+    // --- The search movie action from the previous step wasn't successful.
+    if (this.resultStatus == 400)
+    {
+      template-macro ("Allocine_2_0_SelectMovie_SearchMovie_Failed_Yes")
+    }
+    // --- User didn't say which movie he/she want's to see.
+    else-if (this.resultStatus == 300)
+    {
+      template-macro ("Allocine_2_1_SelectMovie_SelectIndex_UserSaid_No")
+    }
+    // --- User gave a select index higher than the number of results.
+    else-if (this.resultStatus == 200)
+    {
+      template-macro ("Allocine_2_2_SelectMovie_SelectIndex_Valid_No") {
+        param (totalCount) { literal (this.searchMovieResults.moviesConnection.length) }
+      }
+    }
+    // --- Bixby displays the movie selected by the user.
+    else-if (this.resultStatus == 100 && exists (this.movie))
+    {
+      template-macro ("Allocine_2_3_SelectMovie_SelectIndex_Match_Yes")
+    }
+  }
+  
+  
+  render
+  {
+    if (this.resultStatus == 100 && exists (this.movie))
+    {
+      // --- Display the movie selected by the user.
+      layout-macro (movie) {
+        param (movie) { expression (this.movie) }
+      }
+    }
+  }
+  
+  
+  conversation-drivers
+  {
+  }
+  
+}

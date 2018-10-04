@@ -1,0 +1,13 @@
+dialog (Value) {
+  match {
+    LoyaltyCards (this)
+  }
+
+  switch (this) {
+    case (CCU) { template("CCU") }
+    case (CINE_CARTE_CIP) { template("Ciné Carte CIP") }
+    case (CINECHEQUE) { template("Chèques Ciné") }
+    case (LE_PASS) { template("Le Pass") }
+    case (UGC_ILLIMITE) { template("UGC Illimité") }
+  }
+}

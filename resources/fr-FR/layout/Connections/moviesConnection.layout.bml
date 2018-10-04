@@ -1,0 +1,172 @@
+<layout-macro-def id="moviesConnection">
+  <params>
+    <param name="searchMovieResults" type="SearchMovieResults" min="Optional" max="One"/>
+  </params>
+  
+  <content>
+    
+    {{#if exists(searchMovieResults) && exists(searchMovieResults.moviesConnection)}}
+      {{#if exists(searchMovieResults.moviesConnection.movies)}}
+        {{#each searchMovieResults.moviesConnection.movies : i}}
+    
+          <viv:IntentContainer>
+            <children>
+    
+              <div class="card">
+                <layout-macro id="common:card">
+
+                  <image>
+                    {{#if exists(searchMovieResults.moviesConnection.movies[i].poster)}}
+                      {{searchMovieResults.moviesConnection.movies[i].poster.url}}
+                    {{/if}}
+                  </image>
+                  <imageType>thumbnail</imageType>
+
+                  <title>
+                    <h1 class="cardTitle">
+                      {{#if exists(searchMovieResults.moviesConnection.movies[i].title)}}
+                        {{searchMovieResults.moviesConnection.movies[i].title}}
+                      {{/if}}
+                    </h1>
+                  </title>
+                  <titleSize> x-small </titleSize>
+
+                  <bodyText>
+
+                    <!-- De FilmDirector -->
+                      <p class="bodyText">
+                        {{#if exists(searchMovieResults.moviesConnection.movies[i].credits)}}
+                        {{#if exists(searchMovieResults.moviesConnection.movies[i].credits.edges)}}
+                        <span class="label">De</span>
+                          {{#each searchMovieResults.moviesConnection.movies[i].credits.edges : j}}
+
+                            {{#if searchMovieResults.moviesConnection.movies[i].credits.edges[j].activity == "DIRECTOR"}}
+                              {{#if exists(searchMovieResults.moviesConnection.movies[i].credits.edges[j].person)}}
+
+                                {{#if exists(searchMovieResults.moviesConnection.movies[i].credits.edges[j].person.firstName)}}
+                                  &#8201;&#8201;{{searchMovieResults.moviesConnection.movies[i].credits.edges[j].person.firstName}}
+                                {{/if}}
+
+                                {{#if exists(searchMovieResults.moviesConnection.movies[i].credits.edges[j].person.lastName)}}
+                                  &#8201;{{searchMovieResults.moviesConnection.movies[i].credits.edges[j].person.lastName}}
+                                {{/if}}
+
+                              {{/if}}
+                            {{/if}}
+
+                          {{/each}}
+                        {{/if}}
+                        {{/if}}
+                      </p>
+
+                      <!-- Avec Acteurs -->
+                      <p class="bodyText">
+      <!--                   <span class="label">Avec</span> -->
+                        {{#if exists(searchMovieResults.moviesConnection.movies[i].cast)}}
+                        {{#if size(searchMovieResults.moviesConnection.movies[i].cast.edges) > 0}}
+                        <span class="label">Avec</span>
+                          {{#each searchMovieResults.moviesConnection.movies[i].cast.edges : k}}
+                            {{#if exists(searchMovieResults.moviesConnection.movies[i].cast.edges[k])}}
+
+                              {{#if k == 0}}
+
+                                {{#if exists(searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor)}}
+                                  &#8201;&#8201;{{searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.firstName}}
+                                {{/if}}
+                                {{#if exists(searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor)}}
+                                  &#8201;{{searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.lastName}}
+                                {{/if}}
+
+                              {{else}}
+                                {{#if k < 3}}
+
+                                  {{#if exists(searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.firstName)}}
+                                    , &#8201;&#8201;{{searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.firstName}}
+                                  {{/if}}
+                                  {{#if exists(searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.lastName)}}
+                                    &#8201;{{searchMovieResults.moviesConnection.movies[i].cast.edges[k].actor.lastName}}
+                                  {{/if}}
+
+                                {{/if}}
+                              {{/if}}
+
+                            {{/if}}
+                          {{/each}}
+                        {{/if}}
+                        {{/if}}
+                      </p><br>
+
+                      <!-- movie.genres -->
+                      <p class="details">
+                        <!-- movie.runTime -->
+                        {{#if exists(searchMovieResults.moviesConnection.movies[i].runTime)}}
+                          {{searchMovieResults.moviesConnection.movies[i].runTime}}
+                        {{/if}}
+
+                        <!-- movie.genres -->
+                        {{#if exists(searchMovieResults.moviesConnection.movies[i].genres)}}
+
+                          {{#if exists(searchMovieResults.moviesConnection.movies[i].runTime)}}
+                            &#8201; &#47;&#8201;
+                          {{/if}}
+
+                          {{#each searchMovieResults.moviesConnection.movies[i].genres : l}}
+                            {{#if l == 0}}
+                              {{searchMovieResults.moviesConnection.movies[i].genres[l]}}
+                            {{else}}
+                              , {{searchMovieResults.moviesConnection.movies[i].genres[l]}}
+                            {{/if}}
+                          {{/each}}
+
+                        {{/if}}
+                      </p>
+
+                  </bodyText>
+
+                </layout-macro>
+              </div>
+              
+            </children>
+            <onClickIntent>
+              intent {
+                goal: SelectMovie
+                value: SearchMovieResults$expr(searchMovieResults)
+                value: SelectIndex$expr(i + 1)
+              }
+            </onClickIntent>
+          </viv:IntentContainer>
+    
+        {{/each}}
+      {{/if}}
+    {{/if}}
+  </content>
+  
+  <style>
+    .card {
+      margin: 0;
+      padding: 1%;
+      font-family: "Montserrat-Light", Arial, sans-serif;
+      color: rgba(250, 250, 250);
+/*       letter-spacing: 0.5px; */
+    }
+    .cardTitle {
+      font-size: 20px;
+      font-weight: lighter;
+      margin-bottom: 3%;
+    }
+    .bodyText {  /* <p> */
+/*       border: 1px #b3b3b3 solid; */
+      padding: 0px;
+      margin: 0px;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    .details {
+      font-size: 12px;
+      color: rgba(250, 250, 250, 0.6);
+    }
+    .label {  /* <span> */
+      font-weight: lighter;
+    }
+  </style>
+</layout-macro-def>

@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: SelectIndex (this)
+  template("Flûte ! Je ne trouve pas la fiche de ton film.")
+}

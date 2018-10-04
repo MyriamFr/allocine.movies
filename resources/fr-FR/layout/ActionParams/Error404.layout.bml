@@ -1,0 +1,11 @@
+<layout-macro-def id="Error404">
+  <params>
+  </params>
+  
+  <content>
+      Je n'arrive pas à me connecter. Peux-tu réessayer plus tard ?
+  </content>
+  
+  <style>
+  </style>
+</layout-macro-def>

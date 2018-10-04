@@ -1,0 +1,53 @@
+<layout-macro-def id="creditsConnection">
+  <params>
+    <param name="creditsConnection" type="CreditsConnection" min="Optional" max="One"/>
+    <param name="long" type="viv.core.Boolean" min="Optional" max="One"/>
+  </params>
+  
+  <content>
+    Layout: creditsConnection
+    
+    {{#if exists(creditsConnection)}}
+      <div class="section">
+        
+        <!-- cast.totalCount -->
+        <h3 class="sectionTitle">Crédits -
+          <layout-macro id="totalCount">
+            <totalCount>
+              {{creditsConnection.totalCount}}
+            </totalCount>
+          </layout-macro>
+        </h3>
+        
+        <!-- cast.totalCount -->
+        {{#if exists(creditsConnection.edges)}}
+          {{#each creditsConnection.edges : index}}
+            <layout-macro id="creditsMember">
+              <creditsMember>
+                {{creditsConnection.edges[index]}}
+              </creditsMember>
+            </layout-macro>
+          {{/each}}
+        {{/if}}
+        
+      </div>
+    {{/if}}
+  </content>
+  
+  <style>
+    .section {
+      margin-top: 3%;
+      margin-bottop: 1.5%;
+      padding: 1.5%;
+      font-size: $font_field_label; /* $font_label; */
+    }
+    .sectionTitle {
+      font-size: $font_primary_text;
+      padding-top: 1.5%;
+      margin-bottom: 3%;
+    }
+    .spaced {
+      margin-bottom: 1.5%;
+    }
+  </style>
+</layout-macro-def>

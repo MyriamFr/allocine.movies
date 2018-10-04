@@ -1,0 +1,244 @@
+dialog (Value) {
+  match {
+    PersonActivity (this)
+  }
+ switch (this) {
+ case (ACTOR) {template("Acteur")}
+ case (DIGITAL_EFFECTS) {template("Effets numériques")}
+ case (DISTRIBUTION) {template("Distribution")}
+ case (DISTRIBUTION_COORDINATION) {template("Coordination de la distribution")}
+ case (FOREIGN_DISTRIBUTOR) {template( "Distributeur étranger")}
+ case (FRENCH_DISRIBUTOR) {template("Distributeur français")}
+ case (INTERNATIONAL_DISTRIBUTION_EXPORTS_COMPANIES) {template("compagnies de distribution internationale exportations")}
+ case (FIRST_ASSISTANT_DIRECTOR) {template("premier assistant réalisateur")}
+ case (FIRST_CAMERA_ASSISTANT) {template("premier assistant de caméra")}
+ case (SPECIAL_EFFECTS_2D) {template("effets spéciaux 2d")}
+ case (SECOND_ASSISTANT_DIRECTOR) {template("deuxième assistant realisateur")}
+ case (SECOND_CAMERA_ASSISTANT) {template("deuxième assistant de caméra")}
+ case (SECOND_UNIT_DIRECTOR) {template("directeur de deuxième unité")}
+ case (SUPERVISOR_3D) {template("Superviseur 3D")}
+ case (THIRD_ASSISTANT_DIRECTOR) {template("troisième assistant de réalisateur")}
+ case (ACTING_COACHING) {template("coaching intérimaire")}
+ case (AIR_RECORDING) {template("enregistrement aérien")}
+ case (ANIMAL_HANDLER) {template("manipulateur d'animaux")}
+ case (ANIMATIC) {template("animatique")}
+ case (ANIMATION_AND_VISUAL_EFFECTS_SUPERVISOR) {template("superviseur d'animation et d'effets visuels")}
+ case (ANIMATOR) {template("animateur")}
+ case (ART_DIRECTOR) {template("directeur artistique")}
+ case (ART_SUPERVISOR) {template("superviseur d'art")}
+ case (ARTISTIC_CONSULTANT) {template("consultant artistique")}
+ case (ASSISTANT_COSTUME_DESIGNER) {template("assistant costume designer")}
+ case (ASSISTANT_DIRECTOR) {template("assistant director")}
+ case (ASSISTANT_PRODUCTION) {template("assistant production")}
+ case (ASSISTANT_EDITOR) {template("assistant rédacteur")}
+ case (ASSISTANT_FIGHT_CHOREOGRAPHER) {template("assistant chorégraphe de combat")}
+ case (ASSISTANT_PRODUCTION_CO_ORDINATOR) {template("assistant coordinateur de production")}
+ case (ASSISTANT_SET_DECORATOR) {template("assistant décorateur")}
+ case (ASSISTANT_SET_DRESSER) {template("assistant set dresser")}
+ case (ASSISTANT_STUNT_COORDINATOR) {template("assistant coordinateur de cascade")}
+ case (ASSISTANT_TECHNICAL_ADVISOR) {template("assistant conseiller technique")}
+ case (ASSISTANT_TO_ART_DIRECTOR) {template("assistant au directeur artistique")}
+ case (ASSISTANT_UNIT_MANAGER) {template("assistant unit manager")}
+ case (ASSOCIATE_EDITOR) {template("éditeur associé")}
+ case (B_CAMERA) {template("b camera")}
+ case (BOOM_OPERATOR) {template("opérateur de boom")}
+ case (CAMERA_ASSISTANT) {template("assistant caméra")}
+ case (CAMERA_OPERATOR) {template("opérateur caméra")}
+ case (CASTING_DIRECTOR) {template("directeur de casting")}
+ case (CASTING_DIRECTOR_CHILDREN) {template("directeur de casting enfants")}
+ case (CASTING_PRODUCER) {template("producteur de casting")}
+ case (CG_SUPERVISOR) {template("superviseur cg")}
+ case (CHARACTER_ANIMATION_SUPERVISOR) {template("superviseur d'animation de personnages")}
+ case (CHARACTER_EFFECTS) {template("effets de caractère")}
+ case (CHARACTER_GRAPHIC_CREATION) {template("création graphique de personnage")}
+ case (CHARACTER_PAINTING_SUPERVISOR) {template("superviseur de peinture de personnages")}
+ case (CHARACTER_SPECIAL_EFFECTS) {template("effets spéciaux de personnage")}
+ case (CHARACTER_TECHNICAL_DIRECTOR) {template("directeur technique du personnage")}
+ case (CHILDREN_S_COACH) {template("entraîneur d'enfants")}
+ case (CHOREOGRAPHER) {template("chorégraphe")}
+ case (COLORIST) {template("coloriste")}
+ case (COMPOSITING_SUPERVISOR) {template("superviseur de la composition")}
+ case (CONCEPT_ARTIST) {template("artiste concept")}
+ case (CONSULTANT) {template("consultant")}
+ case (COSTUME_DESIGNER) {template("costumière")}
+ case (COSTUME_SUPERVISOR) {template("superviseur de costumes")}
+ case (CROWD) {template("spectateurs")}
+ case (DANCER) {template("danseur")}
+ case (DIALOGUE_EDITOR) {template("éditeur de dialogue")}
+ case (DIALOGUE_EDITOR_SUPERVISOR) {template("superviseur éditeur de dialogue")}
+ case (DIRECTOR_OF_PHOTOGRAPHY) {template("directeur de la photographie")}
+ case (DIRECTOR_OF_PHOTOGRAPHY_ASSISTANT) {template("directeur de l'assistant photo")}
+ case (DUBBING_ASSISTANT) {template("assistant de doublage")}
+ case (EDITOR) {template("éditeur")}
+ case (EDITOR_IN_CHIEF) {template("éditeur en chef")}
+ case (ELECTRICIANS) {template("électriciens")}
+ case (EXECUTIVE_DIRECTOR) {template("directeur exécutif")}
+ case (EXTRAS_CASTING) {template("Casting supplémentaires")}
+ case (FIGHT_CHOREOGRAPHER) {template("chorégraphe de combat")}
+ case (FILM_POSTER_BY) {template("affiche du film par")}
+ case (FOLEY_ARTIST) {template("artiste foley")}
+ case (FOLEY_EDITOR) {template("éditeur foley")}
+ case (FOLEY_RECORDIST) {template("opérateur du son Foley")}
+ case (GAFFER) {template("chef électiricien")}
+ case (GRAPHIC_DESIGNER) {template("graphiste")}
+ case (HAIR) {template("coiffeur")}
+ case (HAIRDRESSER_SUPERVISOR) {template("superviseur de coiffeur")}
+ case (HEAD_COSTUMER) {template("Costumier principal")}
+ case (ILLUSTRATOR) {template("illustrateur")}
+ case (INTERTITLES) {template("intertitres")}
+ case (KEY_GRIP) {template("Machiniste")}
+ case (LAYOUT) {template("Disposition")}
+ case (LAYOUT_SUPERVISOR) {template("Superviseur de disposition")}
+ case (LEAD_MAN) {template("homme de tête")}
+ case (LEGAL_ADVISOR) {template("conseiller juridique")}
+ case (LIGHTING) {template(    "éclairage")}
+ case (LIGHTING_DIRECTOR) {template("Directeur de l'éclairage")}
+ case (LOCATION_ASSISTANT_ASSISTANT) {template("assistant de localisation")}
+ case (LOCATION_MANAGER) {template("gestionnaire d'emplacement")}
+ case (LOCATION_SCOUT) {template("éclaireur de localisation")}
+ case (MAKE_UP) {template("maquillage")}
+ case (MAKE_UP_ASSISTANT) {template("assistant de maquillage")}
+ case (MAKE_UP_SUPERVISOR) {template("superviseur de maquillage")}
+ case (MAKE_UP_VISUAL_EFFECTS) {template("maquillage d'effets visuels ")}
+ case (MAKING_OF_BY) {template("fait par")}
+ case (MATTE_PAINTER) {template("matte peintre")}
+ case (MODEL_MAKER) {template("maquettiste")}
+ case (MODELLING) {template("modélisation")}
+ case (PAINTER) {template("peintre")}
+ case (PHOTOGRAPHER) {template("photographe")}
+ case (PICTURE_RESTORATION) {template("restauration d'image")}
+ case (POST_PRODUCTION_COORDINATOR) {template("coordinateur post production")}
+ case (POST_PRODUCTION_PRODUCER) {template("producteur post production")}
+ case (POST_PRODUCTION_SUPERVISOR) {template("superviseur post-production")}
+ case (POST_PRODUCTION_DIRECTOR) {template("directeur de la post-production")}
+ case (PRODUCTION_CREW) {template("équipe de production")}
+ case (PRODUCTION_ADMINISTRATOR) {template("administrateur de production")}
+ case (PRODUCTION_ASSISTANT) {template("assistant de production")}
+ case (PRODUCTION_CO_ORDINATOR) {template("co-ordinateur de la production")}
+ case (PRODUCTION_COORDINATOR_DIRECTOR) {template("directeur de coordinateur de production")}
+ case (PRODUCTION_COORDINATOR) {template("coordinateur de la production")}
+ case (PRODUCTION_DESIGNER) {template("chef décorateur")}
+ case (PRODUCTION_DIRECTOR) {template("directrice de production")}
+ case (PRODUCTION_MANAGER) {template("directeur de production")}
+ case (PRODUCTION_SECRETARY) {template("secrétaire de production")}
+ case (PRODUCTION_SUPERVISOR_MANAGER) {template("directeur de superviseur de production")}
+ case (PRODUCTION_SUPERVISOR) {template("superviseur de production")}
+ case (PROP_MASTER) {template("accessoiriste")}
+ case (PROP_WRANGLER) {template("prop wrangler")}
+ case (PUPPETEER) {template("accessoiriste")}
+ case (RESEARCH) {template("recherce")}
+ case (SCANNING_LASER3D) {template("numérisation laser3d")}
+ case (SCRIPT) {template("scénario")}
+ case (SECOND_UNIT_CINEMATOGRAPHER) {template("second directeur de la photographie")}
+ case (SECOND_UNIT_STUNT_COORDINATOR) {template("deuxième unité coordinateur")}
+ case (SET_DECORATOR_CHEF) {template("chef décorateur")}
+ case (SET_DECORATOR) {template("décorateur")}
+ case (SET_DECORATOR_ASSEMBLER) {template("assembleur de decoratuer")}
+ case (SET_IN_COLOR) {template("mis en couleur")}
+ case (SOUND_ASSISTANT) {template("assistant son")}
+ case (SOUND_CREATION) {template("création sonore")}
+ case (SOUND_DESIGN) {template("conception sonore")}
+ case (SOUND_DESIGNER) {template("concepteur sonore")}
+ case (SOUND_EDITOR) {template("monteur sonore")}
+ case (SOUND_EFFECTS_EDITOR) {template("éditeur d'effets sonores")}
+ case (SOUND_ENGINEER) {template("ingenieur son")}
+ case (SOUND_MIXING) {template("mixage sonore")}
+ case (SOUND_RESTORATION) {template("restauration du son")}
+ case (SOUND_EFFECTS_ENGINEER) {template("ingénieur effets sonores")}
+ case (SPECIAL_EFFECTS) {template("effets spéciaux")}
+ case (SPORTS_COACH) {template("coach sportif")}
+ case (STAGEHAND) {template("machiniste")}
+ case (STEREOGRAPHIC_ANIMATION) {template("animation stereographique")}
+ case (STEREOSCOPIC_SUPERVISOR) {template("superviseur stéréographique")}
+ case (STILLS_PHOTOGRAPHER) {template("photoragphe de plateau")}
+ case (STORY) {template("récit")}
+ case (STORYBOARD_ARTIST) {template("artiste storyboard")}
+ case (STUNT_COORDINATOR_CHEF) {template("coordinateur de cascade chef")}
+ case (STUNT_COORDINATOR) {template("Coordinateur de cascade")}
+ case (STUNTS) {template("cascades")}
+ case (STUNTS_RIGGER) {template("cascadeur rigger")}
+ case (STYLIST) {template("styliste")}
+ case (SUBMARINE_PHOTOGRAPHY) {template("photographie sous-marine")}
+ case (SUBTITLES) {template("sous-titres")}
+ case (SUPPORT_ADDITIONAL_LOCATION_ASSISTANT_CHEF) {template("soutien de chef adjoint de la localisation supplémentaire")}
+ case (SUPPORT_ADDITIONAL_LOCATION_ASSISTANT) {template("assistant de localisation supplémentaire")}
+ case (TAMER) {template("dompteur")}
+ case (TECHNICAL_ADVISOR) {template("conseiller technique")}
+ case (TECHNICAL_DIRECTOR) {template("directeur technique")}
+ case (TECHNICAL_SUPERVISOR) {template("superviseur technique")}
+ case (TEXTURING) {template("texturation")}
+ case (TITLE_SEQUENCE_DESIGNER) {template("concepteur de séquence de titres")}
+ case (UNIT_MANAGER) {template("chef de secteur")}
+ case (VISUAL_DEVELOPMENT) {template("développement visuel")}
+ case (VISUAL_EFFECTS_CINEMATOGRAPHER) {template("cinéaste effets visuels")}
+ case (VISUAL_EFFECTS_COORDINATOR) {template("coordinateur effets visuels")}
+ case (VISUAL_EFFECTS_DIRECTOR) {template("Directeur des effets visuels")}
+ case (VISUAL_EFFECTS_EDITOR) {template("éditeur d'effets visuels")}
+ case (VISUAL_EFFECTS_SUPERVISOR) {template("superviseur effets visuels")}
+ case (VISUAL_EFFECTS_SUPERVISOR_PRODUCTION) {template("production de superviseurs d'effets visuels")}
+ case (VOICE_COACHING) {template("coaching vocal")}
+ case (WARDROBE) {template("garde-robe")}
+ case (WEAPONS_MASTER) {template("maître d'armes")}
+ case (WILDLIFE_PHOTOGRAPHY) {template("photographie de la faune")}
+ case (CO_DIRECTOR) {template("codirecteur")}
+ case (CREATOR_SHOWRUNNER) {template("créateur showrunner")}
+ case (DIRECTOR) {template("réalisateur")}
+ case (SHOWRUNNER) {template("showrunner")}
+ case (PRESS_AGENT) {template("agent de presse")}
+ case (PUBLIC_RELATIONS) {template("relations publiques")}
+ case (SALES_AGENT) {template("agent de ventes")}
+ case (ADDITIONAL_MUSIC) {template("musique additionnelle")}
+ case (ADDITIONAL_MUSIC_COMPOSER) {template("compositeur de musique supplémentaire")}
+ case (LYRICIST) {template("parolier")}
+ case (MUSIC_COMPOSER) {template("compositeur")}
+ case (MUSIC_COMPOSER_THEME_SONG) {template("chanson de compositeur de musique")}
+ case (MUSIC_COORDINATOR) {template("coordinateur musique")}
+ case (MUSIC_EDITOR) {template("editeur musique")}
+ case (MUSIC_MIXING) {template("mélange de musique")}
+ case (MUSIC_PRODUCER) {template("producteur de musique")}
+ case (MUSICAL_CONSULTANT) {template("consultant en musique")}
+ case (MUSICAL_SUPERVISOR) {template("superviseur musical")}
+ case (MUSICIAN) {template("musicien")}
+ case (ORIGINAL_COMPOSITION_BY) {template("composition originale par")}
+ case (SINGER) {template("chanteur")}
+ case (SINGER_SONGS_FROM_THE_FILM_FRENCH_VERSION) {template("chansons de chanteur du film version française")}
+ case (THEME_SONG_PERFORMER) {template("interprète de la chanson thématique")}
+ case (TITLE_SOUNDTRACK) {template("bande originale du titre")}
+ case (ADJUNCT_EXECUTIVE_DIRECTOR) {template("directeur exécutif adjoint")}
+ case (BUSINESSMAN) {template("homme d'affaire")}
+ case (DIRECTOR_OF_COMMUNICATIONS) {template("directeur des communications")}
+ case (EXPLORER) {template("explorateur")}
+ case (JOURNALIST) {template("journaliste")}
+ case (LAWYER) {template("avocat")}
+ case (POET) {template("poète")}
+ case (POLITICIAN) {template("politicien")}
+ case (PRESENTER) {template("présentateur")}
+ case (PSYCHIATRIST) {template("pscyhiatre")}
+ case (SCIENTIST) {template("scientifique")}
+ case (SPORTSMAN) {template("sportif")}
+ case (TV_PRODUCER) {template("producteur de télévision")}
+ case (UNKNOWN_CREDITS) {template("crédits inconnus")}
+ case (ASSOCIATE_PRODUCER) {template("producteur associé")}
+ case (CO_PRODUCER) {template("co-producteur")}
+ case (EXECUTIVE_CO_PRODUCER) {template("co-producteur exécutif")}
+ case (EXECUTIVE_PRODUCER) {template("producteur éxecutif")}
+ case (GENERAL_REPRESENTATIVE) {template("représentant général")}
+ case (LINE_PRODUCER) {template("producteur exécutif")}
+ case (PRODUCER) {template("producteur")}
+ case (ADAPTED_BY) {template("adapté par")}
+ case (AUTHOR) {template("auteur")}
+ case (BASED_ON) {template("basé sur")}
+ case (CO_SCREENWRITER) {template("co-scénariste")}
+ case (COLLABORATION_TO_THE_SCENARIO) {template("collaboration au scénario")}
+ case (CREATOR) {template("créateur")}
+ case (DIALOGUE_COACH) {template("coach de dialogue")}
+ case (DIALOGUE_WRITER) {template("dialogueur")}
+ case (GAGMAN) {template("gagman")}
+ case (ORIGINAL_CHARACTERS_BY) {template("personnages originaux par")}
+ case (ORIGINAL_IDEA) {template("idée originale")}
+ case (ORIGINAL_SCRIPT_BY) {template("scénario original par")}
+ case (SCREENWRITER) {template("scénariste")}
+ case (STORY_EDITOR) {template("éditeur d'histoire")}
+ case (WRITING_DIRECTOR) {template("directeur d'écriture")}
+  }
+}

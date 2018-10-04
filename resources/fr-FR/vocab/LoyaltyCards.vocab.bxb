@@ -1,0 +1,17 @@
+vocab (LoyaltyCards) {
+   "CCU" {
+    "CCU"
+  }
+   "CINE_CARTE_CIP" {
+    "Ciné Carte CIP"
+  }
+   "CINECHEQUE" {
+    "Chèques Ciné"
+  }
+   "LE_PASS" {
+    "Le Pass"
+  }
+   "UGC_ILLIMITE" {
+    "UGC Illimité"
+  }
+}

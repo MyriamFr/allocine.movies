@@ -1,0 +1,492 @@
+train (t-04dhepls8xzfymf1ov3vib0n6) {
+  utterance ("[g:SearchShowtimesByTheater] Tu peux m'afficher les séances de (Journal d'un Curé de campagne)[v:MovieTitle] au cinéma (Les 3 Palmes)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-04tar0oiii2hhq3vxdr4cdx60) {
+  utterance ("[g:allocine.movies.SearchMovie] (Guy)[v:MovieTitle] au cinéma")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-053p08p3xarep36jcyaip2ggb) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me montrer (Venom)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-093moenq1hyw4j6kfqy7wo9k1) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au cinéma (Le 7ème Art)[v:TheaterName] il y a des séances de (Hôtel Transylvanie 3 Des vacances monstrueuses)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-09xw0hxsk22dnc0rkbmcqdkwr) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au cinéma (Jean Renoir)[v:TheaterName] ça passe (Guy)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-0b4b8un2dqykoxnfix2jnfxeo) {
+  utterance ("[g:allocine.movies.SearchMovie] J'aimerais bien voir (jason bourne)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-0b8rh6i1rne5xqriii6vkgyab) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche le film (Amin)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-0kf2y8mk8dqws8cd69lvd25q0) {
+  utterance ("[g:SearchShowtimesByTheater] Je veux que tu me trouves les séances des (Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-0mddele03quf2zlfgimhwhso3) {
+  utterance ("[g:SearchMovie] Je veux voir le dernier film de (Harry Potter)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-0tc5kfethfzlx49249kzqro9b) {
+  utterance ("[g:SearchShowtimesByTheater] quelles sont les séances de (les frères sisters)[v:MovieTitle]  au (mk2 bibliothèque)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-1l3tfeof7n9ndk4jx9u6ygwkz) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve-moi (La Nonne)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-2mip66vdqd52kh0ce9uksegbs) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me chercher le film (Le vent tourne)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-2nwp853nhq7ex2tu4lzzrpiq4) {
+  utterance ("[g:allocine.movies.SearchMovie] montre la fiche de (Le grand bain)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-2rk4e9s0mkgrz0y58r7lxk71h) {
+  utterance ("[g:allocine.movies.SearchMovie] Cherche la fiche du film (I Feel Good)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-2rsl51ox22gd9pe56y4a5pg05) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me chercher (Le vent tourne)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-2tqcp0ge3ecizi92c73xbl86a) {
+  utterance ("[g:allocine.movies.SearchMovie] (Star Wars: Episode IX)[v:MovieTitle] la fiche du film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-3x5ynh6q6yq8xnppc42wjlo5k) {
+  utterance ("[g:allocine.movies.SearchMovie] montre la fiche de (La Saveur des ramen)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-471cxvks6vpq1urros7xu4mcd) {
+  utterance ("[g:allocine.movies.SearchMovie] donne moi la fiche de (Lola et ses frères)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-4pof1p60r1m1vf53wm1046n9z) {
+  utterance ("[g:allocine.movies.SearchMovie] Montre moi (La Nonne)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-589lk1ib2aiyxevnxtw3f233p) {
+  utterance ("[g:allocine.movies.SearchMovie] j'ai envie de regarder (le Jeu)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-5t46i37ani8ol2tgic72z50ak) {
+  utterance ("[g:allocine.movies.SearchMovie] j'ai envie de voir (Amin)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-5ul8fxmco70kfu5gedo64qe36) {
+  utterance ("[g:allocine.movies.SearchMovie] (Photo De Famille)[v:MovieTitle] au cinéma.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-6heamoywca7qa7u2c69z9uckp) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux aller regarder (creed II)[v:MovieTitle] au cinema")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-7sk81vulxjhs1o76yh0ka5lkg) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve-moi (Libre)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-857j8monn1z3f43gbx6cqia29) {
+  utterance ("[g:allocine.movies.SearchMovie] Film (Donbass)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-875froeej0uxkvghay5zhbp2g) {
+  utterance ("[g:allocine.movies.SearchMovie] la fiche de (Star Wars)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-8mm324ew4iph71ru56rrvpy1q) {
+  utterance ("[g:allocine.movies.SearchMovie] (La Particule humaine)[v:MovieTitle], la fiche du film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-8xeacz209rnoc1wl6sljk2n8g) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux m'afficher la fiche du film (A Star Is Born)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-90lgwiu5k5u5mkevh7j9jjd1x) {
+  utterance ("[g:allocine.movies.SearchMovie] Puis-je aller voir (L'Ombre d'Emily)[v:MovieTitle] au ciné ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-985e9fqb0qoa775qwp0oa132o) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux voir (Un homme pressé)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-9938njwufvbiivqkp4z9x5yzi) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux regarder (Voyez comme on danse)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-9sbd9upft6631pmkb1668l3g4) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux voir (la nonne)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-a7wf2ina3n262xa2qsn67mel3) {
+  utterance ("[g:allocine.movies.SearchMovie] Film (Bumblebee)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-aosf2bnd22rihqgfpd4hmjgc0) {
+  utterance ("[g:allocine.movies.SearchMovie] (lola et ses frères)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-awuge93sqhx5vxtygyyyea7r6) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi des informations sur (un homme pressé)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-b9i8ffyg7wzyhkn5qifkkpy6m) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux voir (Parvana)[v:MovieTitle] au ciné")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-beb62866bydkdenrs1960vyde) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve moi la fiche du film (Godzilla)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-bw1vc2bkpyvgnwdruhr6c9b9u) {
+  utterance ("[g:allocine.movies.SearchMovie] J'ai envie de voir (Un Peuple et son roi)[v:MovieTitle] au ciné.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-bzuus1k4iqa7umt3k1kotwyyt) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux m'afficher (Journal d'un disparu)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-c17qwxzt0ug10uwkcj0ily23u) {
+  utterance ("[g:allocine.movies.SearchMovie] peux-tu m'afficher (un homme pressé)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-c1jp8esk64ssz0sy29jqk39ys) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux regarder (Journal d'un disparu)[v:allocine.movies.MovieTitle] au ciné.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-c62uozwd41akw4xhdafkhnqmv) {
+  utterance ("[g:allocine.movies.SearchMovie] Informations sur (Avengers 4)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-cf23ntlfi11puwrj7wathbczc) {
+  utterance ("[g:allocine.movies.SearchMovie] Je vais au cinéma pour voir (Journal d'un disparu)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-cov99ff5lu7pyyu5f7lvdqk7e) {
+  utterance ("[g:allocine.movies.SearchMovie] (Donbass)[v:MovieTitle] la fiche du film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-cv1uufk3d38y5wrjmg4yq589w) {
+  utterance ("[g:allocine.movies.SearchMovie] J'ai envie d'aller au cinéma pour regarder (Journal d'un disparu)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-d9ugxsje081deg93wavwocwob) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux aller voir (Parvana)[v:MovieTitle] au cinéma")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-dgl1lovhxc5bmt5tl19vhh2jn) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche moi (Harry Potter à l'école des sorciers)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-disqi4hgoebxf45o5vu7xtv13) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que je peux voir des informations sur (Un homme pressé)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-eigmkec7ar7zirlkyff6f366s) {
+  utterance ("[g:allocine.movies.SearchMovie] (Venom)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-epoabmjgi5nop5je5nsy8b0ok) {
+  utterance ("[g:allocine.movies.SearchMovie] (Un Peuple et son roi)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-evbjow131e8gmux7e0p62os8f) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche moi les informations de (Les vieux Fourneaux)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-fcnjzoaryqkhmgbpup3ma7bct) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche le film (Un Peuple et son roi)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-fczy208r4bqzh3m1it5z7mfil) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux aller voir (silvio et les autres)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-fqc4ennreabov4x9fo9xfl9zl) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux voir (I Feel Good)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-fs3ong12f38ywchbipk4a74ef) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche moi (L'amour est une fête)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-fuagdnnovrizn66cxv03r6b6n) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu m'afficher le film (Aquaman)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-g36or3ixk65624uta2brquqzy) {
+  utterance ("[g:allocine.movies.SearchMovie] (Aquaman)[v:MovieTitle] la fiche du film.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-g4ovulk537pfnagbrcpwmgzur) {
+  utterance ("[g:allocine.movies.SearchMovie] Cherche moi (Un amour impossible)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-g5vowkfgco5c8zd3uwtx8txly) {
+  utterance ("[g:allocine.movies.SearchMovie] Montre le film (Rafiki)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-g6vp8gpna5373wskq67o2a2v1) {
+  utterance ("[g:allocine.movies.SearchMovie] Pourrais-tu m'afficher la fiche du film (Upgrade)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-g7ypvue8qkafs3e83wx46wkz3) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me trouver le film (Journal d'un disparu)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-gqguwhg40c9p3tu7zl8p3q156) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu m'afficher (Libre)[v:allocine.movies.MovieTitle] le film ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-gtndjweql77g4ovgqav0q3fvq) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve moi (un homme pressé)[v:allocine.movies.MovieTitle] le film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-hf0dylbet4ox2klam2qt9bu1s) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche moi (Rafiki)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-hxn5wvt7skbbf68cu7zs01g3b) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux voir la fiche du film (Le Grand Bal)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-igxjblf1fqs068ed2mie0srt2) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me lire la fiche du film (Le Poulain)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-imzoc96mmn4i1w0pswst1dvyp) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche moi (les informations sur La Nonne)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-in7zwps5bsc4v8r0oobioolfe) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi la fiche de (Le Grand bal)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-it0i6ql8lp0ho0c0wlnbxyjr8) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux voir le film (La Nonne)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-j3l9chf0ex109d2ba2k7i0wpc) {
+  utterance ("[g:allocine.movies.SearchMovie] montre moi la fiche de film (a star is born)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-jlb06nzf63wgrwxtk1rj87ea6) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux aller voir (My Lady)[v:MovieTitle] au cinéma.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-jnhu9if1ggpexmbl00nu48c3r) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve moi le film (Capharnaum)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-jt495tbn4qe0uu8g4fuwv9ces) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi (Capharnaum)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-k6d495v0c8iwtftfglxsdb1f8) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux aller au cinéma pour voir (Journal d'un disparu)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-ke3qbkeasfsvlw931e9z5ju0h) {
+  utterance ("[g:allocine.movies.SearchMovie] J'ai envie d'aller au ciné pour regarder (Journal d'un disparu)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-kqmufjvirzxtscyskoiz9377q) {
+  utterance ("[g:allocine.movies.SearchMovie] (I Feel Good)[v:MovieTitle] la fiche du film.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-l0cq1g6x1m1kr0nvgwde27itq) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me trouver (Libre)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-l8f8hlns5xl25widenblgyyny) {
+  utterance ("[g:allocine.movies.SearchMovie] Je cherche le film (Journal d'un disparu)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-l8g7wqo1130bz7rd01ekso37o) {
+  utterance ("[g:allocine.movies.SearchMovie] (Amin)[v:MovieTitle] fiche de film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-lcg04yn2d5l6vtdv8afmu8s9m) {
+  utterance ("[g:allocine.movies.SearchMovie] Le film (Millenium: Ce qui ne me tue pas)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-ljbech9j6axcs4ykt32wpqd19) {
+  utterance ("[g:allocine.movies.SearchMovie] Cherche-moi (Captain Marvel)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-md0b38xrzuszxt6w576jhcxdg) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi le film (Avengers 4.)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-mjeaszrvk9znepipqov1a2k4b) {
+  utterance ("[g:allocine.movies.SearchMovie] (L'empereur de Paris)[v:MovieTitle] informations")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-mry1t5wisjwh510z4eb8j7qrr) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que je peux regarder (Première année)[v:MovieTitle] au cinéma ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-nr95slzqjazdicysftfjggxyt) {
+  utterance ("[g:allocine.movies.SearchMovie] Affiche (Les Frères Sisters)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-ny4ez4nv8mvj4giz6j9ihdy7b) {
+  utterance ("[g:allocine.movies.SearchMovie] (Bohemian Rhapsody)[v:MovieTitle] film.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-o0o97ab3kmpm6pif2jnv7tuwk) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me chercher (Croc Blanc)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-oi915idvhn5c1c0og6ovqn6sd) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi (Spider-Man)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-or4ryw90vs1w78z0hwmfjn0hd) {
+  utterance ("[g:allocine.movies.SearchMovie] (Upgrade)[v:allocine.movies.MovieTitle] film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-p0bj75mloxfzhubyebj7kzi5b) {
+  utterance ("[g:allocine.movies.SearchMovie] Lis moi la fiche de (En eaux troubles)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-pmzn47smd2z05fxis9hm9ppne) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi des informations sur (Un Peuple et son roi)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-q0yhs3afj639onfszh9u4ihvu) {
+  utterance ("[g:allocine.movies.SearchMovie] Dis moi sur (The Little Stranger)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-q66spf2mk6len7jkfk3g6e00u) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux savoir sur le film (Bergman, une année une vie)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-qo0qyl295k389x86ow1sicr00) {
+  utterance ("[g:allocine.movies.SearchMovie] Informations de (Les Vieux fourneaux)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-qoge3xgxtv0ignm8avo0yx0uo) {
+  utterance ("[g:allocine.movies.SearchMovie] (un amour impossible)[v:allocine.movies.MovieTitle] fiche de film")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-qpeqi8o4bcm3ebid9u25zbg8s) {
+  utterance ("[g:allocine.movies.SearchMovie] (La nonne)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-rc8t7wr34f82c4irumgtmjrbe) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi fiche de (la nonne)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-rpuc05v00ozqngbjooy7c4fbd) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux m'afficher le film (Libre)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-rygwu4qdta23uswd4nm3rocmu) {
+  utterance ("[g:allocine.movies.SearchMovie] je veux aller regarder (creed II)[v:allocine.movies.MovieTitle] au ciné.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-rywgqons77aqgewihw33fa6f5) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me chercher la fiche de film (I Feel Good)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-sad4ilkug9crnia3mtekw4zhg) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me chercher (Journal d'un disparu)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-t7jjdo0f2w9nalyfm7jvbrbib) {
+  utterance ("[g:allocine.movies.SearchMovie] Trouve moi des informations sur (La Nonne)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-urw2ct4kdkm5dt54t7oshmrov) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux voir (Chris the Swiss)[v:allocine.movies.MovieTitle] au cinema")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-vccvpc82zlsjvioyar4m7h0za) {
+  utterance ("[g:allocine.movies.SearchMovie] (Captain Marvel)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-vlm43z5rexfkw874jaas7staq) {
+  utterance ("[g:allocine.movies.SearchMovie] dis moi sur (Un homme pressé)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-vsk159olgxzthlbph56b4nj8f) {
+  utterance ("[g:allocine.movies.SearchMovie] J'ai envie de voir (Photo De Famille)[v:MovieTitle] au cinéma.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-vu1joz7dw0qlfvvuxzsf4jc8s) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me chercher (Robin des Bois)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-wkzs3givxm3qtjl8vwrlz05bx) {
+  utterance ("[g:SearchMovie] Je veux voir (Harry Potter)[v:MovieTitle] au cinéma.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-wtm4n45q7l5q564h60jfzbzti) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux savoir sur (La Nonne)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-wwxfvu1g7i9f6s8wrvf71w5b8) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux voir la fiche du film (Halloween)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-x34zd0q4glcwthznzcbz29lxr) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux aller regarder (Nos batailles)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-xil9brj6dcgnh27emeefmtw8l) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux voir (Spider-Man)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-xrf88moq4dlgighkstk5dncxx) {
+  utterance ("[g:allocine.movies.SearchMovie] Montre moi (Upgrade)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-y0s74prl3odxsdu1tt177xf9t) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi fiche de film (La Nonne)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-y6viixl0ibyhvtxpukj548yam) {
+  utterance ("[g:allocine.movies.SearchMovie] cherche moi le film (Girl)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-yb4s1fizruzzwlusr52d0kamy) {
+  utterance ("[g:allocine.movies.SearchMovie] Peux-tu me chercher le film (Robin des Bois)[v:MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-yedgnmrc199p4zj1avfuqkfgg) {
+  utterance ("[g:allocine.movies.SearchMovie] montre moi la fiche du film (Le Grand Bal)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-yfr5sdk79j2kanw2kapu78l2s) {
+  utterance ("[g:allocine.movies.SearchMovie] le film (Amin)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-yqtov2ivlohiw4j5htofn5634) {
+  utterance ("[g:allocine.movies.SearchMovie] Cherche-moi le film (Journal d'un disparu)[v:allocine.movies.MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-ytxu4fsg7oqhsbsn4bqc7cbk9) {
+  utterance ("[g:allocine.movies.SearchMovie] trouve moi le film (Amin)[v:allocine.movies.MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-zd5sljj2eo4c75xl2199r1gx1) {
+  utterance ("[g:allocine.movies.SearchMovie] J'ai envie de regarder le film (Amin)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-zh3xa1ya69osw6l6wowpfkp3t) {
+  utterance ("[g:allocine.movies.SearchMovie] Est-ce que tu peux me montrer (un homme pressé)[v:allocine.movies.MovieTitle] ?")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-zzksm2lp9z1z4trfaowo586zk) {
+  utterance ("[g:allocine.movies.SearchMovie] J'aimerais regarder (7 minuti)[v:allocine.movies.MovieTitle] au cinéma.")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}

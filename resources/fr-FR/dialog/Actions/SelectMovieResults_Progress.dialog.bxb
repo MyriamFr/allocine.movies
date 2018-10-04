@@ -1,0 +1,14 @@
+dialog (Progress)
+{
+  match {
+    SelectMovieResults (results) {
+      from-output: SelectMovie (action)
+    }
+  }
+
+  template ("Je t'affiche ton film...")
+  // if (exists (title))
+  // {
+  //   template("#{value(title)} : je te cherche ça...")
+  // }
+}

@@ -1,0 +1,4 @@
+train (t-hmxn6membzu3b8zash5o08pjg) {
+  utterance ("[g:allocine.movies.SearchPerson] Trouve-moi des informations sur (Emma Thompson)[v:SearchKeyword].")
+  plan (Y2BmUEnMyclPzsxL1cvNL8tMLdYLTk0sSs4ISC0qzs+LD0otLs0pKWaQwaeKQRa7rHdqZXl+UQoDEwMjEDMASUYGEIDyAQ==)
+}

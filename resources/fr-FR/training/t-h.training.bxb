@@ -1,0 +1,16 @@
+train (t-h4kygth8uit8pezi1pohqhju1) {
+  utterance ("[g:SearchShowtimesByTheater] Y'a-t-il au (Vincennes)[v:TheaterName] des séances de (Un nouveau jour sur Terre)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-ha04n0uz7a73mhs138ws70goi) {
+  utterance ("[g:SearchShowtimesByTheater] Cherche (Les Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-hnnym2gq6mw8z0bqfaher4ovn) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde si (Pat Et Mat déménagent !)[v:MovieTitle] passe à l'(UGC Ciné Cité Noisy-le-Grand)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-hxcq8aop4w8rdvbn3ws4djny8) {
+  utterance ("[g:SearchShowtimesByTheater] (Ciné 104)[v:TheaterName], (Sui Dhaaga - Made in India)[v:MovieTitle], les horaires des séances s'il te plaît.")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

@@ -1,0 +1,21 @@
+dialog (Progress)
+{
+  match {
+    SearchShowtimesByTheaterResults (results) {
+      from-output: SearchShowtimesByTheater (action)
+    }
+  }
+  
+  choose (Random)
+  {
+    template ("Je te cherche des séances...")
+    if (exists (results.theaterName))
+    {
+      template ("Je te cherche des séances au cinéma #{value(results.theaterName)}...")
+    }
+  }
+  // if (exists (title))
+  // {
+  //   template("#{value(title)} : je te cherche ça...")
+  // }
+}

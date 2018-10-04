@@ -1,0 +1,9 @@
+dialog (Selection)
+{
+  match: SelectIndex (this)
+  choose (Random)
+  {
+    template ("Lequel cherches-tu ?")
+    template ("Est-ce un de ces films que tu cherches ?")
+  }
+}

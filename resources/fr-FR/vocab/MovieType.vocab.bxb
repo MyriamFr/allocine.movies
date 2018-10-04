@@ -1,0 +1,32 @@
+vocab (MovieType) {
+   "FEATURE_FILM" {
+    "long métrage"
+  }
+    "MEDIUM_LENGTH_FILM" {
+    "film de longueur moyen"
+  }
+    "SHORT_FILM" {
+    "court métrage"
+  }
+    "TV_MOVIE" {
+    "série TV"
+  }
+    "SERIAL" {
+    "série"
+  }
+    "ANTHOLOGY_FILM" {
+    "film anthologique"
+  }
+    "EPISODE" {
+    "episode"
+  }
+    "BRAND_CONTENT" {
+    "contenu de la marque"
+  }
+    "COMMERCIAL" {
+    "commercial"
+  }
+    "SPECIAL_EVENT" {
+    "événement spécial"
+  }
+}

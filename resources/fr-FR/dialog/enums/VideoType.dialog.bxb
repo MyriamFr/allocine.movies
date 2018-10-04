@@ -1,0 +1,26 @@
+dialog (Value) {
+  match {
+    VideoType (this)
+  }
+
+  switch (this) {
+  case (CREDITS) {template ("crédits") }
+  case (ADVERTISING) {template ("Publicité") }
+  case (TV_PROGRAM) {template ("Programme télé") }
+  case (FEATURETTE) {template ("Featurette") }
+  case (INTERVIEW) {template ("Interview") }
+  case (EXCERPT) {template ("Extrait") }
+  case (PARODY_MASHUP) {template ("Mashup parodie") }
+  case (TEASER) {template ("Teaser") }
+  case (TRAILER) {template ("Bande annonce") }
+  case (VIDEO_CLIP) {template ("Clip vidéo") }
+  case (VIDEO_GAME_TRAILER) {template ("Bande annonce du jeu vidéo") }
+  case (ONLINE_USER_REVIEW) {template ("Avis d'utilisateur en ligne") }
+  case (MOVIEGOER_REACTIONS) {template ("Réactions de cinéphiles") }
+  case (COMPLETE) {template ("Achevée") }
+  case (FIRST_MINUTES) {template ("Premières minutes") }
+  case (SPECIAL_REPORT) {template ("Rapport spécial") }
+  case (TRAILER_STREAM) {template ("TRAILER_STREAM") }
+
+}
+}

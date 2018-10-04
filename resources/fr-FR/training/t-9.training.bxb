@@ -1,0 +1,8 @@
+train (t-9t5ghagtxnsbvbnso9apygf0h) {
+  utterance ("[g:SearchShowtimesByTheater] Je vais aller voir les (Frères Sisters)[v:MovieTitle] au cinéma (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-9v6g7bt6atoqtmkjln9nrdjom) {
+  utterance ("[g:SearchShowtimesByTheater] (J'ai perdu Albert)[v:MovieTitle], est-ce qu'il passe au (cinéma Domont)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

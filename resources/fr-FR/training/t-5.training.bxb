@@ -1,0 +1,4 @@
+train (t-5xjx14i4s6mkcij7gkxsb6qnv) {
+  utterance ("[g:SearchShowtimesByTheater] Au (Gaumont Stade De France)[v:TheaterName] y a (Mon Voisin Totoro)[v:MovieTitle] ou pas ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

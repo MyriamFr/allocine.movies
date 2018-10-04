@@ -1,0 +1,14 @@
+<layout-macro-def id="totalCount">
+  <params>
+    <param name="totalCount" type="TotalCount" min="Optional" max="One"/>
+  </params>
+  
+  <content>
+    {{#if exists(totalCount)}}
+      <span class="count">totalCount</span>
+    {{/if}}
+  </content>
+  
+  <style>
+  </style>
+</layout-macro-def>

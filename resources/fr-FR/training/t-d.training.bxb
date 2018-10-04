@@ -1,0 +1,12 @@
+train (t-dpx34u0mh2s1o6glgxwt0w2mp) {
+  utterance ("[g:SearchShowtimesByTheater] je veux aller voir un film au (MK2 Bibliothèque)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCABOQBRQDAA==)
+}
+train (t-dq27sjjh8xf5gxa6e3pdobar7) {
+  utterance ("[g:SearchShowtimesByTheater] Les (Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-dyy18hrj7tkiasl5592b81sls) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'ils passent les (Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

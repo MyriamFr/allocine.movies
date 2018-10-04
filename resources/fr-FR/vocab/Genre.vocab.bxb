@@ -1,0 +1,120 @@
+vocab (Genre) {
+    "ACTION" {
+    "action"
+  }
+    "ADVENTURE" {
+    "aventure"
+  }
+    "ANIMATION" {
+    "animation"
+  }
+    "BIOPIC" {
+    "biopic"
+  }
+    "BOLLYWOOD" {
+    "bollywood"
+  }
+    "CARTOON" {
+    "dessin animé"
+  }
+    "CLASSIC" {
+    "classique"
+  }
+    "COMEDY" {
+    "comédie"
+  }
+    "COMEDY_DRAMA" {
+    "comédie dramatique"
+  }  
+  "CONCERT" {
+    "concert"
+  } 
+  "DETECTIVE" {
+    "détective"
+  }
+    "DIVERS" {
+    "divers"
+  }
+    "DOCUMENTARY" {
+    "documentaire"
+  }
+    "DRAMA" {
+    "drame"
+  }
+    "EROTIC" {
+    "érotique"
+  }
+    "EXPERIMENTAL" {
+    "experimental"
+  }  
+    "FAMILY" {
+    "famille"
+  }  
+    "FANTASY" {
+    "fantasie"
+  } 
+    "HISTORICAL" {
+    "historique"
+  } 
+    "HISTORICAL_EPIC" {
+    "epic historique"
+  } 
+    "HORROR" {
+    "horreur"
+  } 
+    "JUDICIAL" {
+    "judicaire"
+  } 
+    "KOREAN_DRAMA" {
+    "drama coréen"
+  } 
+    "MARTIAL_ARTS" {
+    "arts martiaux"
+  }
+    "MEDICAL" {
+    "médical"
+  }
+    "MOVIE_NIGHT" {
+    "soirée film"
+  } 
+    "MUSIC" {
+    "la musique"
+  } 
+    "MUSICAL" {
+    "musical"
+  } 
+    "OPERA" {
+    "opéra"
+  }
+    "ROMANCE" {
+    "romance"
+  }
+    "SCIENCE_FICTION" {
+    "science fiction"
+  }
+    "PERFORMANCE" {
+    "performance"
+  }
+    "SOAP" {
+    "série télévisée"
+  }
+    "SPORT_EVENT" {
+    "événement sportif"
+  }
+    "SPY" {
+    "espion"
+  }
+    "THRILLER" {
+    "thriller"
+  }
+    "WARMOVIE" {
+    "film de guerre"
+  }
+    "WEBSERIES" {
+    "série web"
+  }
+    "WESTERN" {
+    "western"
+  }
+}
+ 

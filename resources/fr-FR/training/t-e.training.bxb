@@ -1,0 +1,12 @@
+train (t-e1qn9lbsz3eijq83mfbvtkfeq) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde les séances de (Un Peuple et son Roi)[v:MovieTitle] au (Cinq Caumartin)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-ed4uj7bt9fnk079lf6z2mhqm3) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde si au cinéma (Olympia)[v:TheaterName] il y a des séances de (La Prophétie de l'Horloge)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-eoxd4cqr5kes6c554rgtovmoo) {
+  utterance ("[g:SearchShowtimesByTheater] Le cinéma (Gaumont Convention)[v:TheaterName] passe-t-il le film (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

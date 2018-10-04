@@ -1,0 +1,32 @@
+input-view
+{
+  match : TheaterName (this) {
+    to-input: SearchShowtimesByTheater (action)
+  }
+  
+  
+  message
+  {
+    template-macro (Allocine_3_4_SearchShowtimesByTheater_TheaterName_UserSaid_No)
+  }
+  
+  render {
+    form {
+      on-submit {
+        goal: SearchMovie
+        value: viv.core.FormElement (theaterName)
+      }
+      submit-button {
+        template ("Séances dans cette salle")
+      }
+      elements {     
+        text-input {
+          id ("theaterName")
+          type (TheaterName)
+          value ("une salle de cinéma")
+        }
+      }
+    }
+  }
+  
+}

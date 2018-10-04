@@ -1,0 +1,12 @@
+train (t-1juf1vgoh8j78sr7qhmoankuq) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde s'il y a des séances de (Les Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-1oc0habtd353gfksmfz7cpvro) {
+  utterance ("[g:SearchShowtimesByTheater] Il y est ou pas au (Cineco Le Temple)[v:TheaterName], (Les Dames du Bois de Boulogne)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-1pvzv9p4o07gqxcr4ifm7b220) {
+  utterance ("[g:SearchShowtimesByTheater] (Vaurien)[v:MovieTitle], cinéma (Multiplexe Ciné Quai)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

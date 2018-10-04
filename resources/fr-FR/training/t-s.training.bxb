@@ -1,0 +1,12 @@
+train (t-scvuj3qwkzadfb796p02cw8gy) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au (Studio 43)[v:TheaterName] il passe, (Okko et les fantômes)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-slhzjz23jtsezcq4izyt1hkpq) {
+  utterance ("[g:allocine.movies.SearchMovie] (diamants sur canapé)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-sw5imhcjegq61178o5va4flly) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce que (Les Frères Sisters)[v:MovieTitle] passe au (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

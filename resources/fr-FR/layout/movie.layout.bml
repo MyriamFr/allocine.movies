@@ -1,0 +1,274 @@
+<layout-macro-def id="movie">
+  <params>
+    <param name="movie" type="Movie" min="Optional" max="One"/>
+  </params>
+  
+  <content>
+
+    {{#if exists(movie)}}
+    
+      <div class="card">
+        <layout-macro id="common:card">
+        
+          <!-- Affiche du film -->
+          <image>
+            {{#if exists(movie.poster)}}
+              {{movie.poster.url}}
+            {{/if}}
+          </image>
+          <imageType>hero</imageType>
+          
+          <title>
+            <h1 class="mainTitle">
+              {{movie.title}}
+            </h1>
+          </title>
+          <titleSize> x-small </titleSize>
+
+          <bodyText>
+
+            <!-- Informations sur le film -->
+            <p class="details">
+              <span class="label">Date de sortie</span>&#8201;&#8201;
+              {{#if exists(movie.releaseDate)}}
+                  {{movie.releaseDate}}
+              {{/if}}
+            </p>
+
+            <!-- Informations sur le film -->
+            <p class="detailsLast">
+              {{#if exists(movie.runTime)}}
+                &#40;{{movie.runTime}} min&#41;
+              {{/if}}
+            </p>
+            <!-- De FilmDirector -->
+                      <p class="details">
+      <!--                   <span class="label">De</span> -->
+                        <span class="label">De</span>
+                        {{#if exists(movie.credits)}}
+                        {{#if exists(movie.credits.edges)}}
+                          {{#each movie.credits.edges : j}}
+
+                            {{#if movie.credits.edges[j].activity == "DIRECTOR"}}
+                              {{#if exists(movie.credits.edges[j].person)}}
+
+                                {{#if exists(movie.credits.edges[j].person.firstName)}}
+                                  &#8201;&#8201;
+                                  {{movie.credits.edges[j].person.firstName}}
+                                {{/if}}
+
+                                {{#if exists(movie.credits.edges[j].person.lastName)}}
+                                  &#8201;
+                                  {{movie.credits.edges[j].person.lastName}}
+                                {{/if}}
+
+                              {{/if}}
+                            {{/if}}
+
+                          {{/each}}
+                        {{/if}}
+                        {{/if}}
+                      </p>
+            
+            <!-- Avec Acteurs -->
+                      <p class="details">
+                        <span class="label">Avec</span>
+                        {{#each movie.cast.edges : k}}
+                          {{#if exists(movie.cast.edges[k])}}
+
+                            {{#if k == 0}}
+
+                              {{#if exists(movie.cast.edges[k].actor.firstName)}}
+                                &#8201;&#8201;{{movie.cast.edges[k].actor.firstName}}
+                              {{/if}}
+                              {{#if exists(movie.cast.edges[k].actor.lastName)}}
+                                &#8201;
+                                {{movie.cast.edges[k].actor.lastName}}
+                              {{/if}}
+
+                            {{else}}
+                              {{#if k < 3}}
+
+                                {{#if exists(movie.cast.edges[k].actor.firstName)}}
+                                  , &#8201;&#8201;{{movie.cast.edges[k].actor.firstName}}
+                                {{/if}}
+                                {{#if exists(movie.cast.edges[k].actor.lastName)}}
+                                  &#8201;
+                                  {{movie.cast.edges[k].actor.lastName}}
+                                {{/if}}
+
+                              {{/if}}
+                            {{/if}}
+
+                          {{/if}}
+                        {{/each}}
+                      </p>
+            
+            
+            <p class="details">
+              
+              {{#if size(movie.genres) == 1}}
+                <span class="label">Genre</span>&#8201;&#8201;
+              {{else}}
+                <span class="label">Genres</span>&#8201;&#8201;
+              {{/if}}
+              
+              {{#each movie.genres : l}}
+                {{#if l == 0}}
+                  {{movie.genres[l]}}
+                {{else}}
+                  , {{movie.genres[l]}}
+                {{/if}}
+              
+              {{/each}}
+            </p>
+            
+            <p class="detailsLast">
+              
+              {{#if size(movie.countries) == 1}}
+                <span class="label">Nationalité</span>&#8201;&#8201;
+              {{else}}
+                <span class="label">Nationalités</span>&#8201;&#8201;
+              {{/if}}
+              
+              {{#each movie.countries : m}}
+                {{#if m == 0}}
+                  {{movie.countries[m]}}
+                {{else}}
+                  , {{movie.countries[m]}}
+                {{/if}}
+              
+              {{/each}}
+              
+            </p>
+            
+            <div class="ratings">
+              <table>
+                <tr>
+                  
+                  <td>
+                    {{#if exists(movie.pressReviews)}}
+                      <div class="infosLabel">Presse</div>
+                        <layout-macro id="ratingScore">
+                          <ratingScore>
+                            {{movie.pressReviews.ratingScore}}
+                          </ratingScore>
+                        </layout-macro>
+                    {{/if}}
+                  </td>
+                  
+                  <td>
+                    {{#if exists(movie.userReviews)}}
+                      <div class="infosLabel">Spectateurs</div>
+                        <layout-macro id="ratingScore">
+                          <ratingScore>
+                            {{movie.userReviews.ratingScore}}
+                          </ratingScore>
+                        </layout-macro>
+                    {{/if}}
+                  </td>
+                  
+                </tr>
+              </table>
+            </div>
+            
+            <p class="detailsLast">
+              {{#if exists(movie.synopsis)}}
+                {{movie.synopsis}}<br>
+              {{/if}}
+            </p>
+            <br><br><br>
+
+          </bodyText>
+        
+        </layout-macro>
+      </div>
+    {{/if}}
+    
+  </content>
+  
+  <style>    
+    /*----------------- LEVEL 1 - PAGE -----------------*/
+    
+    .card {
+      margin: 0;
+      padding: 0;
+      font-family: "Montserrat-Light", Arial, sans-serif;
+      color: rgba(250, 250, 250);
+      font-size: 13px;
+/*       letter-spacing: 0.5px; */
+    }
+    
+    .moviePoster {
+/*       border: 1px solid green; */
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+/*       position: relative; */
+      text-align: left;
+      color: white;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 3%;
+    }
+    .poster {
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .mainTitle {
+/*       border: 1px solid red; */
+      margin: 0%;
+      margin-top: 1%;
+      padding-bottom: 3%;
+      color: rgba(250, 250, 250);
+      font-size: 24px;
+      font-weight: normal;
+    }
+    
+    .details {
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    .detailsLast {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 5%;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    .label {
+      color: rgba(250, 250, 250, 0.6);
+    }
+    
+    table {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      table-layout: fixed;
+      border-collapse: collapse;
+      border-spacing: 5px;
+    }
+    tr {
+      align: center;
+    }
+    
+    .ratings {
+      padding: 0;
+      margin: 0;
+      margin-top: 3%;
+      margin-bottom: 8%;
+      font-size: 13px;
+      color: rgba(250, 250, 250, 0.6);
+    }
+    .infosLabel {  /* <span> */
+      color: rgba(250, 250, 250, 0.6);
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 5px;
+    }
+    
+  </style>
+</layout-macro-def>

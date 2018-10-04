@@ -1,0 +1,16 @@
+train (t-jd5ggqouj9jh9q8l4vclrg71r) {
+  utterance ("[g:SearchShowtimesByTheater] Des séances des (Frères Sisters)[v:MovieTitle], est-ce qu'il y en a au (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-jep1xptsd2j49haqpumneugnh) {
+  utterance ("[g:SearchShowtimesByTheater] (16 levers de soleil)[v:MovieTitle] au cinéma")
+  plan (Y2Bm0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8rAxMAIxAxAkpEBBKB8AA==)
+}
+train (t-jgtm6cfvii7zszaftxizr5cqn) {
+  utterance ("[g:SearchShowtimesByTheater] Les (Frères Sisters)[v:MovieTitle], est-ce qu'il passe au (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-jtxnbnmg5lcws1sacnp9rfasn) {
+  utterance ("[g:SearchShowtimesByTheater] Cherche au (MK2 Bastille côté Fg St Antoine)[v:TheaterName] les séances de (La Fontaine fait son cinéma)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

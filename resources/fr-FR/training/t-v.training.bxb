@@ -1,0 +1,16 @@
+train (t-v9bh2eumfjiqdd3n0dk2yca3b) {
+  utterance ("[g:allocine.movies.SearchMovie] montre la fiche du (bon gros géant)[v:MovieTitle]")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-vmtajqbhbt9yszflnau0ulxi4) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde s'il y a (Le Seigneur des Anneaux Le retour du Roi)[v:MovieTitle] au (cinéma Athénée)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-vocy2lzoegvjarupunbjutcgm) {
+  utterance ("[g:SearchShowtimesByTheater] J'aimerais bien aller voir un film au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCABOQBRQDAA==)
+}
+train (t-vzpjds7bjujeuyat9nyiqo85g) {
+  utterance ("[g:SearchShowtimesByTheater] (L'une chante, l'autre pas)[v:MovieTitle] au (CGR Carcassonne)[v:TheaterName], affiche les séances.")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

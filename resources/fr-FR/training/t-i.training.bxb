@@ -1,0 +1,8 @@
+train (t-i81v4uxhktfy988st1krybdwt) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'il y a (Les Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-iflbcyugehv3txldo41ui3831) {
+  utterance ("[g:SearchShowtimesByTheater] montre les séances de le (septième sceau)[v:MovieTitle] au (champollion)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

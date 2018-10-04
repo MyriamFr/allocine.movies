@@ -1,0 +1,12 @@
+train (t-n033pzkvaf2dm2wj6k3z85esb) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Le (dernier)[v:SelectIndex:-1], fais-le voir s'il te plaît.")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-ne4pu4z9knfz3uisp79v46e7a) {
+  utterance ("[g:SearchShowtimesByTheater] (Frères ennemis)[v:MovieTitle] au (Ariel - Hauts de Rueil)[v:TheaterName], y a des séances ou pas ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-noq27t8kvtc5zp7cvaf73qqii) {
+  utterance ("[g:SearchShowtimesByTheater] (Les Frères Sisters)[v:MovieTitle], (Gaumont Convention)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

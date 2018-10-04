@@ -1,0 +1,4 @@
+train (t-eklu79aitbwm84hlmc9v79a99) {
+  utterance ("[g:allocine.movies.FindShowtimes] quelle heure on peut voir (Mademoiselle de Joncquières)[v:MovieTitle] dans le cinema de (convention)[v:TheaterName]")
+  plan (Y2BhUEnMyclPzsxL1cvNL8tMLdZzy8xLCc7ILy/JzE0tDkotLs0pKWaQxauKQQpd2hdEhWSW5KQySKPLhWSkJpakFvkl5qYyMDMwMjABSQYgDYIQABcFAA==)
+}

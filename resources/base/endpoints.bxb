@@ -1,0 +1,23 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints
+  {
+    action-endpoint (SearchMovie){
+      local-endpoint ("SearchMovie.js")
+      accepted-inputs (movieTitle)
+    }
+    
+    action-endpoint (SelectMovie){
+      local-endpoint ("SelectMovie.js")
+      accepted-inputs (searchMovieResults, selectIndex, movieTitle)
+    }
+    
+    action-endpoint (SearchShowtimesByTheater) {
+      local-endpoint ("SearchShowtimesByTheater.js")
+      accepted-inputs (movieTitle, theaterName ,fromTime)
+    }
+  }
+}

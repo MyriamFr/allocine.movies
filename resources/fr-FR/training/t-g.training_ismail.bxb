@@ -1,0 +1,4 @@
+train (t-g1g5kzmk1w8ua46r04lhmwlw7) {
+  utterance ("[g:allocine.movies.SearchMovie] Je veux aller voir (Le Poulain)[v:MovieTitle]")
+  plan (Y2BmUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGGQQpcEC4dkluSkMjAxMAIxA5BkZAABKB8A)
+}

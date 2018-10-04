@@ -1,0 +1,12 @@
+train (t-f0xe8smlkwdg6z2ndhng0roee) {
+  utterance ("[g:SearchShowtimesByTheater] Montre les séances de (Le Vent tourne)[v:MovieTitle] au (Pathé Conflans Sainte Honorine)[v:MovieTitle].")
+  plan (Y2Bl0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk0q2HAsDIwMTAzOQZgCzmIAkAwMPEDIARRkhMgA=)
+}
+train (t-f4kegxhnnpfbh64xcqnprc5at) {
+  utterance ("[g:SearchShowtimesByTheater] Il y est (Un Peuple et son Roi)[v:MovieTitle] à (l'Olympia)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-fa8l9uhxuhd9s3l2jtzyhvbpy) {
+  utterance ("[g:SearchShowtimesByTheater] (Gaumont Convention)[v:TheaterName], (Les Frères Sisters)[v:MovieTitle]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

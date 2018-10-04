@@ -1,0 +1,101 @@
+result-view {
+  
+  match {
+    SearchShowtimesByTheaterResults (this)
+  }
+  
+  message
+  {
+    // --- MovieTitle UserSaid No: 300
+    if (this.resultStatus == 300)
+    {
+      template-macro ("Allocine_3_0_SearchShowtimesByTheater_MovieTitle_UserSaid_No")
+    }
+    
+    // --- MovieTitle ReleasedInTheaters No: 310
+    else-if (this.resultStatus == 310)
+    {
+      template-macro ("Allocine_3_1_SearchShowtimesByTheater_MovieTitle_ReleasedInTheaters_No")
+      {
+        param (releaseDate) { expression (this.showtimesByTheater[0].movieShowtimes[0].movie.releaseDate) }
+      }
+    }
+    
+    // --- MovieTitle FutureShowtimes Yes: 320
+    else-if (this.resultStatus == 320)
+    {
+      template-macro ("Allocine_3_2_SearchShowtimesByTheater_MovieTitle_FutureShowtimes_Yes")
+    }
+    
+    // --- MovieTitle HasShowtimes No: 330
+    else-if (this.resultStatus == 330)
+    {
+      template-macro ("Allocine_3_3_SearchShowtimesByTheater_MovieTitle_HasShowtimes_No")
+      {
+        param (movieTitle) { expression (this.movieTitle) }
+      }
+    }
+    
+    // --- TheaterName UserSaid No: 200
+    else-if (this.resultStatus == 200)
+    {
+      template-macro ("Allocine_3_4_SearchShowtimesByTheater_TheaterName_UserSaid_No")
+    }
+    
+    // --- TheaterName Match No: 210
+    else-if (this.resultStatus == 210)
+    {
+      template-macro ("Allocine_3_5_SearchShowtimesByTheater_TheaterName_Match_No")
+      {
+        param (theaterName) { expression (this.showtimesByTheater[0].theater.name) }
+      }
+    }
+    
+    // --- MovieTitle ShowtimesInThisTheater No: 0
+    else-if (this.resultStatus == 0)
+    {
+      template-macro ("Allocine_3_8_SearchShowtimesByTheater_MovieTitle_Match_No")
+      {
+        param (movieTitle) { expression (this.movieTitle) }
+        param (theaterName) { expression (this.theaterName) }
+      }
+    }
+    
+    // --- MovieTitle ShowtimesInThisTheater Match Multi: 100
+    else-if (this.resultStatus == 100 && exists(this.showtimesByTheater) && size(this.showtimesByTheater) > 0)
+    {
+        if (size(this.showtimesByTheater[0].movieShowtimes[0].showtimes) > 1)
+        {
+          template-macro ("Allocine_3_6_SearchShowtimesByTheater_MovieTitle_Match_Multi")
+          {
+            param (totalCount) { literal (size(this.showtimesByTheater.movieShowtimes[0].showtimes))}
+            param (movieTitle) { expression (this.movieTitle) }
+            param (theaterName) { expression (this.theaterName) }
+            param (startsAt) { expression (this.showtimesByTheater[0].movieShowtimes[0].showtimes[size(this.showtimesByTheater[0].movieShowtimes[0].showtimes)-1].startsAt) }
+          }
+        }
+        else-if (size(this.showtimesByTheater[0].movieShowtimes[0].showtimes) == 1)
+        {
+          template-macro ("Allocine_3_7_SearchShowtimesByTheater_MovieTitle_Match_Single")
+          {
+            param (movieTitle) { expression (this.movieTitle) }
+            param (theaterName) { expression (this.theaterName) }
+            param (startsAt) { expression (this.showtimesByTheater[0].movieShowtimes[0].showtimes[size(this.showtimesByTheater[0].movieShowtimes[0].showtimes)-1].startsAt) }
+          }
+        }
+    }
+    
+  }
+  
+  
+  render
+  {
+    if (this.resultStatus == 100 && exists (this.showtimesByTheater) && size(this.showtimesByTheater) > 0)
+    {
+      layout-macro (showtimesByTheater) {
+        param (showtimesByTheater) { expression (this.showtimesByTheater[0]) }
+      }
+    }
+  }
+  
+}

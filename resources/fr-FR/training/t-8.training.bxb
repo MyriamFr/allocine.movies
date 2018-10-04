@@ -1,0 +1,8 @@
+train (t-88nb5gjoqfrkrdxy9b6mgk5ej) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde s'ils passent (Braqueurs d'Élite)[v:MovieTitle] au (Mégarama Villeneuve-la-Garenne)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-8hurgnvyc7sg4fz88bges5hi3) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'ils ont (Les Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

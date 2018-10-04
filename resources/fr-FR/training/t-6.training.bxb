@@ -1,0 +1,16 @@
+train (t-666lbomwpdtdf223cg4lc0vto) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Affiche le (1e)[v:SelectIndex:1], Bixby.")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-6cyeswrt91rr7lcvyzx9ae6aq) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] je préfère le (4e)[v:SelectIndex:4] finalement.")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-6dnpx0o3w7tftytihhe3jvegk) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] (Troisième)[v:SelectIndex:3]")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-6e1korgmozqmp4mmh9wo5gkd3) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Le (dernier)[v:SelectIndex:-1], je peux le voir ?")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}

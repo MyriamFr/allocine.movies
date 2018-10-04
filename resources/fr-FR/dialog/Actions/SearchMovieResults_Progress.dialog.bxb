@@ -1,0 +1,14 @@
+dialog (Progress)
+{
+  match {
+    SearchMovieResults (results) {
+      from-output: SearchMovie (action)
+    }
+  }
+  
+  template ("Je cherche ton film...")
+  // if (exists (title))
+  // {
+  //   template("#{value(title)} : je te cherche ça...")
+  // }
+}

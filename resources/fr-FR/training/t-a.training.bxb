@@ -1,0 +1,24 @@
+train (t-a0amhxzg6iwvvia0fxr2zwcz0) {
+  utterance ("[g:SearchShowtimesByTheater] (On a 20 ans pour changer le monde)[v:MovieTitle], cinéma (Le Rex)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-abqrcrazfrib89kcsb2vg54uo) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au (Gaumont Convention)[v:TheaterName] il y a des séances de (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-aer4qoq3ja5m8b3zcard0zjiq) {
+  utterance ("[g:SearchShowtimesByTheater] Trouve-moi les séances de (Mademoiselle de Joncquières)[v:MovieTitle] au (Sept Parnassiens)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-aisuqjnswpalh9f0c8i2d4f8l) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Le (2e)[v:SelectIndex:2] plutôt, je préfère.")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-al9mf6m1mmb7r2s3l6xbgdh16) {
+  utterance ("[g:SearchShowtimesByTheater] Y'a-t-il (Ant-Man et La Guête)[v:MovieTitle] au (Pathé Nice le Bordeaux)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-alro36igl0jw16gz34z8orv80) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde le cinéma (Gaumont Convention)[v:TheaterName] pour voir s'ils passent Les (Frères Sisters)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

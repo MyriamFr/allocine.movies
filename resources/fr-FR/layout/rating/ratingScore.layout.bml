@@ -1,0 +1,25 @@
+<!-- Emprunté à la capsule Marmiton - @Kaan ;) -->
+
+<layout-macro-def id="ratingScore">
+  <params>
+    <param name="max" type="core.Integer" min="Optional" default="5"/>
+    <param name="ratingScore" type="RatingScore" min="Optional" max="One"/>
+    <param name="actual" type="core.Integer" min="Optional" default="0"/>
+  </params> 
+  
+  <content>
+<!--     <h2>{{ratingScore}}</h2> -->
+    <div class="ratingStarsContainer">
+      <layout-macro id="entityRatingConstructor">
+        <max> {{max}} </max>
+        <ratingScore> {{ratingScore}} </ratingScore>
+        <actual> {{actual}} </actual>
+      </layout-macro>
+    </div>
+  </content>
+  
+  <style>  
+    .ratingStarsContainer {
+    }             
+  </style>
+</layout-macro-def>

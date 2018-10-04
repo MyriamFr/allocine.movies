@@ -1,0 +1,18 @@
+dialog (Value) {
+  match {
+    MovieType (this)
+  }
+
+  switch (this) {
+case (FEATURE_FILM) {template("long métrage" ) }
+case (MEDIUM_LENGTH_FILM) {template("film de longueur moyen" ) }
+case (SHORT_FILM) {template(   "court métrage" ) }
+case (TV_MOVIE) {template( "série TV") }
+case (SERIAL) {template( "série") }
+case (ANTHOLOGY_FILM) {template( "film anthologique") }
+case (EPISODE) {template("episode" ) }
+case (BRAND_CONTENT) {template( "contenu de la marque") }
+case (COMMERCIAL) {template("commercial" ) }
+case (SPECIAL_EVENT) {template("événement spécial" ) }
+}
+}

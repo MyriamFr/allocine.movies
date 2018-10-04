@@ -1,0 +1,12 @@
+train (t-7hgcuu31jspx94v8hywvpicdr) {
+  utterance ("[g:SearchShowtimesByTheater] Montre (Sauvage)[v:MovieTitle] au (Centre George Pompidou)[v:TheaterName], les séances disponibles.")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-7vdt8oxsy5c1kozd6c2h9vcq2) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce que le (Gaumont de Convention)[v:TheaterName] passe (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-7vfep20qk0frku97qhuo7329u) {
+  utterance ("[g:SearchShowtimesByTheater] (L'ombre d'Emily)[v:MovieTitle] à l'(Alhambra Saint Etienne)[v:TheaterName], y a encore des séances disponibles ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

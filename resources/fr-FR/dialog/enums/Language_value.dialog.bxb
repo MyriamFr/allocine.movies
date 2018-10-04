@@ -1,0 +1,103 @@
+dialog (Value) {
+  match {
+    Language (this)
+  }
+ switch (this) {
+case(ABORIGINAL_LANGUAGE) {template("langue autochtone") }
+case(AFRICAN_DIALECT) {template("dialect africain" ) }
+case(AFRIKAANS) {template("afrikaans" ) }
+case(ALBANIAN) {template( "albanais") }
+case(ALGERIAN) {template( "algérien") }
+case(AMHARIC) {template("amharique" ) }
+case(ARABIC) {template( "arabe") }
+case(ARAMAIC) {template( "araméen") }
+case(ARMENIAN) {template("arménien" ) }
+case(AZERI) {template("azeri" ) }
+case(BAMBARA) {template( "bambara") }
+case(BENGALI) {template( "bengali") }
+case(BOSNIAN) {template( "bosniaque") }
+case(BRITON) {template( "breton") }
+case(BULGARIAN) {template("bulgare " ) }
+case(BURMESE) {template("birman" ) }
+case(CANTONESE) {template("cantonais" ) }
+case(CATALAN) {template("catalan" ) }
+case(CHINESE) {template("chinois" ) }
+case(CREOLE) {template("créole" ) }
+case(CZECH) {template( "tchèque") }
+case(DANISH) {template("danois" ) }
+case(DUTCH) {template( "néerlandais") }
+case(ENGLISH) {template( "anglais") }
+case(ESTONIAN) {template( "estonien") }
+case(EUSKERA) {template("euskera" ) }
+case(FARSI) {template( "persan") }
+case(FILIPINO) {template("filipino" ) }
+case(FINNISH) {template("finnois" ) }
+case(FLEMISH) {template( "flamand") }
+case(FRENCH) {template("français" ) }
+case(GAELIC) {template( "gaélique") }
+case(GALLEGO) {template( "gallego") }
+case(GEORGIAN) {template("géorgien" ) }
+case(GERMAN) {template( "allemand") }
+case(GREEK) {template("grec" ) }
+case(GUARANI) {template("guarani" ) }
+case(HEBREW) {template("hébreu" ) }
+case(HINDI) {template("hindi" ) }
+case(HOKKIEN) {template("hokkien" ) }
+case(HUNGARIAN) {template( "hongrois") }
+case(ICELANDIC) {template("islandais" ) }
+case(INDONESIAN) {template( "indonésien") }
+case(INUKTITUT) {template("inuktitut" ) }
+case(ITALIAN) {template( "italien") }
+case(JAPANESE) {template("japonais" ) }
+case(KAZAKH) {template("kazakh" ) }
+case(KHMER) {template("khmer " ) }
+case(KIRGIZIAN) {template("kirghiz " ) }
+case(KLINGON) {template("klingon" ) }
+case(KOREAN) {template( "coréen") }
+case(KURDISH) {template("kurde" ) }
+case(LATIN) {template("latin" ) }
+case(LATVIAN) {template("letton" ) }
+case(LINGALA) {template( "lingala") }
+case(LITHUANIAN) {template("lituanien" ) }
+case(MACEDONIAN) {template( "macédonien") }
+case(MALAGASY) {template("malgache" ) }
+case(MALAY) {template("malais" ) }
+case(MANDARIN) {template( "mandarin") }
+case(MAYA) {template("maya" ) }
+case(MONGOLESE) {template("mongolais" ) }
+case(NORWEGIAN) {template("norvégien" ) }
+case(OTHER) {template("autre" ) }
+case(PASHTO) {template( "pashto") }
+case(PERSIAN) {template( "persan") }
+case(POLISH) {template("polonais" ) }
+case(PORTUGUESE) {template( "portugais") }
+case(ROMANIAN) {template("roumain" ) }
+case(ROMANY) {template("romani" ) }
+case(RUSSIAN) {template( "russe") }
+case(SERB) {template( "serbe") }
+case(SERBO_CROAT) {template( "serbo croate") }
+case(SIGN_LANGUAGE) {template( "langage des signes") }
+case(SILENT) {template("silencieux" ) }
+case(SLOVAK) {template( "slovaque") }
+case(SLOVENIAN) {template("slovène" ) }
+case(SOMALI) {template("somali" ) }
+case(SOTHO) {template("sotho" ) }
+case(SPANISH) {template("espagnol" ) }
+case(SWAHILI) {template("swahili" ) }
+case(SWEDISH) {template( "suédois") }
+case(SWISS_GERMAN) {template("suisse allemand" ) }
+case(TADZHIK) {template("tadzhik" ) }
+case(TAMIL) {template("tamil" ) }
+case(THAI) {template( "thaïlandais") }
+case(TIBETAN) {template("tibétain" ) }
+case(TURKISH) {template("turc" ) }
+case(UKRAINIAN) {template( "ukrainien") }
+case(UNDETERMINED_LANGUAGE) {template("langue non déterminée" ) }
+case(URDU) {template("ourdou" ) }
+case(VIETNAMESE) {template("vietnamien" ) }
+case(WOLOF) {template("wolof" ) }
+case(YIDDISH) {template( "yiddish") }
+case(ZANSKARI) {template("Zanskari" ) }
+case(ZULU) {template("zoulou" ) }
+  }
+ }

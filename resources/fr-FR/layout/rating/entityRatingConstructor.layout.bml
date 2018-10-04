@@ -1,0 +1,36 @@
+<!-- emprunté à la capsule Marmiton - @Kaan ;) -->
+
+<layout-macro-def id="entityRatingConstructor">
+  <params>
+      <param name="max" type="core.Integer" min="Optional" default="5"/>
+      <param name="ratingScore" type="core.Decimal" min="Required" max="One"/>
+      <param name='actual' type="core.Integer" min="Optional" default="0"/>
+  </params>
+  
+  <style>
+  </style>
+  
+  <content>
+    {{#if max>0}}
+
+      {{#if (actual < 1)}}
+        <layout-macro id="ratingStar">
+          <value> {{ratingScore}} </value>
+        </layout-macro>
+    
+      {{else}}
+        <layout-macro id="ratingStar">
+          <value> {{ratingScore-1}} </value>
+        </layout-macro>
+      {{/if}}
+      
+      <layout-macro id="entityRatingConstructor">
+        <max>{{max-1}}</max>
+        <ratingScore>{{ratingScore-1}}</ratingScore>
+        <actual>{{actual+1}}</actual>
+      </layout-macro>
+    
+    {{/if}}
+  </content>
+  
+</layout-macro-def> 

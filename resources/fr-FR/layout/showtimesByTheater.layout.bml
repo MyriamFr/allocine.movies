@@ -1,0 +1,205 @@
+<layout-macro-def id="showtimesByTheater">
+  <params>
+    <param name="showtimesByTheater" type="ShowtimesByTheater" min="Required" max="One"/>
+  </params>
+  
+  <content>
+    {{#if exists(showtimesByTheater)}}
+      <div class="card">
+        <layout-macro id="common:card">
+          
+          <image>
+              {{#if exists(showtimesByTheater.movieShowtimes[0].movie)}}
+                {{#if exists(showtimesByTheater.movieShowtimes[0].movie.poster.url)}}
+                  {{showtimesByTheater.movieShowtimes[0].movie.poster.url}}
+                {{/if}}
+              {{/if}}
+          </image>
+          <imageType>hero</imageType>
+          
+          <title>
+            <h1 class="mainTitle">
+              {{#if exists(showtimesByTheater.movieShowtimes[0])}}
+                {{#if exists(showtimesByTheater.movieShowtimes[0].movie)}}
+                  {{showtimesByTheater.movieShowtimes[0].movie.title}} 
+                {{/if}}
+              {{/if}}
+            </h1>
+          </title>
+          <titleSize> x-small </titleSize>
+          
+          <bodyText>
+            
+            {{#if exists(showtimesByTheater.theater)}}
+              {{#if exists(showtimesByTheater.theater.name)}}
+                <h1 class="theaterName">{{showtimesByTheater.theater.name}}</h1>
+              {{/if}}
+            {{/if}}
+            
+            <p class="infos">
+              {{#if exists(showtimesByTheater.theater.location)}}
+              
+                {{#if exists(showtimesByTheater.theater.location.address)}}
+                  {{showtimesByTheater.theater.location.address}}.
+                {{/if}}
+              
+                {{#if exists(showtimesByTheater.theater.location.zip)}}
+                  &#8201;{{showtimesByTheater.theater.location.zip}}
+                {{/if}}
+              
+                {{#if exists(showtimesByTheater.theater.location.city)}}
+                  &#8201;{{showtimesByTheater.theater.location.city}}
+                {{/if}}
+                
+              {{/if}}
+            </p>
+            
+            <p class="infos">
+              {{#if exists(showtimesByTheater.theater.loyaltyCards)}}
+                Cartes acceptées :&#8201;
+                {{#each showtimesByTheater.theater.loyaltyCards : j}}
+                  {{#if j == 0}}
+                    {{showtimesByTheater.theater.loyaltyCards[j]}}
+                  {{else}}
+                    , {{showtimesByTheater.theater.loyaltyCards[j]}}
+                  {{/if}}
+                {{/each}}
+              {{/if}}
+            </p>
+            
+            {{#if exists(showtimesByTheater.movieShowtimes[0].showtimes)}}
+              <div class="showtimes">
+                {{#each showtimesByTheater.movieShowtimes[0].showtimes : k}}
+                  {{#if exists(showtimesByTheater.movieShowtimes[0].showtimes[k])}}
+
+                    <p class="showtime">
+
+                      {{#if exists(showtimesByTheater.movieShowtimes[0].showtimes[k].startsAt)}}
+                        <span class="showtimeHour">
+                          {{showtimesByTheater.movieShowtimes.showtimes[k].startsAt}}
+                        </span>
+                      {{/if}}
+
+                      {{#if exists(showtimesByTheater.movieShowtimes.showtimes[k].format)}}
+                        <span class="showtimeFormat">
+    <!--                     &#8201; &#47;&#8201; -->
+                          <br>{{showtimesByTheater.movieShowtimes.showtimes[k].format}}
+                        </span>
+                      {{/if}}
+
+                      {{#if exists(showtimesByTheater.movieShowtimes.showtimes[k].version)}}
+                        <span class="showtimeVersion">
+                          <br>{{showtimesByTheater.movieShowtimes.showtimes[k].version}}
+                        </span>
+                      {{/if}}
+
+                    </p>
+
+                  {{/if}}
+                {{/each}}
+              </div>
+            {{/if}}
+            
+          </bodyText>
+          
+        </layout-macro>
+      </div>
+    {{/if}}
+        
+  </content>
+  
+  <style>
+    .mainTitle {
+/*       border: 1px solid red; */
+      margin: 0%;
+      padding-bottom: 3%;
+      color: rgba(250, 250, 250);
+      font-size: 24px;
+      font-weight: normal;
+    }
+    .theaterName {
+/*       border: 1px solid red; */
+      margin: 0%;
+      padding-top: 2%;
+      padding-bottom: 3%;
+      color: rgba(250, 250, 250);
+      font-size: 17px;
+      font-weight: normal;
+    }
+    
+    .showtime {
+      display: inline-block;
+      vertical-align: center;
+      text-align: center;
+      background-color: rgba(25, 25, 25, 0.3);
+/*       border: 1px solid red; */
+      margin: 0;
+      margin-right: 3%;
+      margin-bottom: 3%;
+      padding: 3%;
+      font-size: 14px;
+      font-weight: lighter;
+      color: rgba(250, 250, 250);
+    }
+    
+    .infos {
+      margin: 0;
+      margin-bottom: 3%;
+      padding: 0;
+      font-size: 13px;
+      font-weight: lighter;
+      color: rgba(250, 250, 250, 0.6);
+    }
+    
+    .showtimes {
+      margin: 0;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      padding: 0;
+    }
+    .showtimeHour {
+      margin: 0;
+      margin-bottom: 3%;
+      padding: 0;
+      font-size: 16px;
+    }
+    .showtimeFormat {
+      margin: 0;
+      margin-bottom: 2%;
+      padding: 0;
+      font-size: 11px;
+      font-weight: lighter;
+      color: rgba(250, 250, 250, 0.7);
+    }
+    .showtimeVersion {
+      margin: 0;
+      margin-bottom: 2%;
+      padding: 0;
+      font-size: 11px;
+      font-weight: lighter;
+      color: rgba(250, 250, 250, 0.7);
+    }
+    
+    image {
+      border: 1px solid green;
+      height: 200px;
+    }
+    
+    .moviePoster {
+/*       border: 1px solid green; */
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+/*       position: relative; */
+      text-align: left;
+      color: white;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 3%;
+    }
+    .poster {
+      width: 100%;
+      object-fit: cover;
+    }
+  </style>
+</layout-macro-def>

@@ -1,0 +1,8 @@
+train (t-wky7765wgetr2vs5ytfgel8q4) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce que tu peux m'afficher les séances des (Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-wn3tlirsa5dodmettv67nr6yc) {
+  utterance ("[g:SearchShowtimesByTheater] Le film (Bonjour)[v:MovieTitle] passe-t-il à l'(Espace 1789)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

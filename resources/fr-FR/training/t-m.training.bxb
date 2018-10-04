@@ -1,0 +1,12 @@
+train (t-mi6y03kv4fagmbbe1gi8vwkem) {
+  utterance ("[g:SearchShowtimesByTheater] Y a (Ivan Tsarevitch et la princesse changeante)[v:MovieTitle] au cinéma  (3CAG)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-mvzibfy2uwd5yarnhyedjlj4d) {
+  utterance ("[g:SearchShowtimesByTheater] (Plaire, aimer et courir vite)[v:MovieTitle] au cinéma (Gaumont Convention)[v:TheaterName], affiche les séances.")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-mylidl7xe3egqk125vy8jfuu5) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce que à (Gaumont Convention)[v:TheaterName] ils ont (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

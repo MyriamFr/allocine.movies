@@ -1,0 +1,12 @@
+train (t-xgh55ozvw87zaqe5ohyescugd) {
+  utterance ("[g:SearchShowtimesByTheater] Il passe au (Mégarama Audincourt Lumina)[v:TheaterName], (le Pape François un Homme de parole)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-xk6tkqvfducpl5oyy4r3otjtv) {
+  utterance ("[g:SearchShowtimesByTheater] Je veux aller voir (Leave No Trace)[v:MovieTitle] au cinéma.")
+  plan (Y2Bm0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8rAxMAIxAxAkpEBBKB8AA==)
+}
+train (t-xrrh67zrty3t35hymux2s6e9q) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Et le (cinquième)[v:SelectIndex:5], qu'est-ce que c'est ?")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}

@@ -1,0 +1,4 @@
+train (t-2qqlxsu9y5000iyk2se4csh3p) {
+  utterance ("[g:SearchShowtimesByTheater] je veux voir (première année)[v:MovieTitle] au cinéma (convention)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

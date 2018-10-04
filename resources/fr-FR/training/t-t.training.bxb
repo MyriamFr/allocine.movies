@@ -1,0 +1,8 @@
+train (t-t4e4f0r4v4p29gzkdkhl104b0) {
+  utterance ("[g:SearchShowtimesByTheater] (les frères sisters)[v:MovieTitle] au cinéma (mk2 bibliothèque)[v:TheaterName]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-tnbm1oh9un6u1ainspp9ql8v7) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Fais-voir le (dernier)[v:SelectIndex:-1].")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}

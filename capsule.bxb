@@ -1,0 +1,40 @@
+capsule
+{
+  id (allocine.movies)
+  version (0.1.4)
+  format (3)
+  
+  targets {
+    target (bixby-mobile-fr-FR)
+  }
+  
+  marketplace-constraints {
+    country-constraints {
+      allowed-list{
+        allow (FR)
+      }
+    }
+  }
+  
+  // permissions
+  // {
+  //   lock-screen-enabled
+    // message-content-access
+    // user-profile-access
+  // }
+  
+  capsule-imports
+  {
+    import (viv.time) { version (2.61.25) as (time) }
+    import (viv.geo)  { version (9.0.1) as (geo) }
+    import (viv.image) { version (2.7.7) as (image) }
+    // import (viv.openHours) { version (3.13.11) as (openHours) }
+    // import (viv.news) { version (0.7.6) as (news) }
+    
+    // A VERIFIER
+    import (viv.recipe){ version (3.5.4) as (recipe1) }
+    import (viv.entity) { as (entity) version-from (recipe1) }
+    import (viv.core) { as (core) version-from (entity) }
+    import (viv.common){ as(common) version-from(entity) }
+  }
+}

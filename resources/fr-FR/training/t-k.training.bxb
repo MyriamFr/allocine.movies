@@ -1,0 +1,4 @@
+train (t-kzewtdamxpnv7mrm1ton290yb) {
+  utterance ("[g:SearchShowtimesByTheater] Ça passe au (Gaumont Convention)[v:TheaterName], (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

@@ -1,0 +1,16 @@
+train (t-cg917cqbf7tyr9p9i2lz62jwu) {
+  utterance ("[g:SearchShowtimesByTheater] Je veux voir les séances de Les (Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-cnqgd89mjbwnp3nuqat2lsuxy) {
+  utterance ("[g:SearchShowtimesByTheater] Sors-moi les séances de (Les Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-cod5hndxc71i8xw4y8yfpaj72) {
+  utterance ("[g:SearchShowtimesByTheater] (Le Temps des Forêts)[v:MovieTitle], est-ce qu'il passe au (Saint André des Arts)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-cxzzb56r2dwq9tef4sxjjl5pf) {
+  utterance ("[g:SearchShowtimesByTheater] Au (Gaumont Convention)[v:TheaterName], ils passent (Les Frères Sisters)[v:MovieTitle] ou pas ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

@@ -1,0 +1,8 @@
+train (t-rlmsfinvhy073wu7gxdc4joct) {
+  utterance ("[g:SearchShowtimesByTheater] Affiche-moi les séances des (Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-rv87iie0u2brctzc4rt07u0nv) {
+  utterance ("[g:SearchShowtimesByTheater] Au (UGC Ciné Cité Paris 19)[v:TheaterName] est-ce qu'il y a des séances de (Au Poste !)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

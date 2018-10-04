@@ -1,0 +1,88 @@
+result-view {
+  
+  match {
+    SearchMovieResults (this)
+  }
+  
+  message
+  {  
+    // --- SearchMovie: API error
+    if (this.resultStatus == 400)
+    {
+      template-macro ("Allocine_0_0_ApiError")
+    }    
+    
+    // --- User didn't say the movie title.
+    else-if (this.resultStatus == 300)
+    {
+      template-macro ("Allocine_1_0_SearchMovie_MovieTitle_UserSaid_No")
+    }
+    
+    // --- Bixby couldn't find any movie with this title.
+    else-if (this.resultStatus == 0)
+    {
+      template-macro ("Allocine_1_3_SearchMovie_MovieTitle_Match_No")
+    }
+    else-if (this.resultStatus == 100 && exists (this.moviesConnection))
+    {
+      // --- Bixby found a list of movies with the given title.
+      if (this.moviesConnection.totalCount > 1)
+      {
+        template-macro ("Allocine_1_1_SearchMovie_MovieTitle_Match_Multi")
+        // {
+        //   param (totalCount) { literal (results.movieShowtimesByTheater.showtimes) }
+        //   param (movieTitle) { expression (results.movieTitle) }
+        // }
+      }
+      
+      // --- Bixby found one movie with the given title.
+      else-if (this.moviesConnection.totalCount == 1)
+      {
+        template-macro ("Allocine_1_2_SearchMovie_MovieTitle_Match_Single")
+        // {
+        //   param (totalCount) { literal (results.movieShowtimesByTheater.showtimes) }
+        //   param (movieTitle) { expression (results.movieTitle) }
+        // }
+      }
+    }
+  }
+  
+  
+  render
+  {
+    if (this.resultStatus == 100 && exists (this.moviesConnection))
+    {
+      // --- Display the list of movies found.
+      if (this.moviesConnection.totalCount > 1)
+      {
+        layout-macro (moviesConnection) { 
+          param (searchMovieResults) { expression (this) }
+        }
+      }
+      // --- Display the single movie found.
+      else-if (this.moviesConnection.totalCount == 1)
+      {
+        layout-macro (movie) { 
+          param (movie) { expression (this.moviesConnection.movies[0]) }
+        }
+      }
+    }
+  }
+  
+  
+  conversation-drivers
+  {
+    if (this.resultStatus == 100 && exists (this.moviesConnection))
+    {
+      // If only one movie was found, show buttons allowing the user to
+      // follow-up on his/her request with more information about the movie.
+      if (this.moviesConnection.totalCount == 1)
+      {
+        conversation-driver { template ("Séances") }
+        conversation-driver { template ("Critiques") }
+        conversation-driver { template ("Commentaires") }
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,12 @@
+train (t-316zpqtlirxnse8g7fdmfa3sx) {
+  utterance ("[g:SearchShowtimesByTheater] (Gaumont Convention)[v:TheaterName], les horaires des séances de (Les Frères Sisters)[v:MovieTitle]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-31q48tft0bm28e34vrp533nt2) {
+  utterance ("[g:SearchShowtimesByTheater] Les séances au (Gaumont Convention)[v:TheaterName] de (Les Frères Sisters)[v:MovieTitle]")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-3p4xjr4m5w5mlwzphlsobftn6) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Le (2ème)[v:SelectIndex:2] a l'air pas mal.")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}

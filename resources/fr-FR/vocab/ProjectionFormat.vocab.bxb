@@ -1,0 +1,29 @@
+vocab (ProjectionFormat) {
+  "F_2D" {
+    "2D"
+  }
+  "F_3D" {
+    "3D"
+  }
+  "F_4K" {
+    "4D"
+  }
+  "F_70MM" {
+    "70mm"
+  }
+  "ANALOG" {
+    "Analogique"
+  }
+  "DIGITAL" {
+    "Numérique"
+  }
+  "IMAX" {
+    "Imax"
+  }
+  "IMAX3D" {
+    "Imax 3D"
+  }
+  "IMAX70MM" {
+    "Imax 70mm"
+  }
+}

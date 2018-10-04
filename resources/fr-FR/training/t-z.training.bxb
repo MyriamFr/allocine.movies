@@ -1,0 +1,16 @@
+train (t-z2a95ycz3hhiof4cpdvkwysz3) {
+  utterance ("[g:SearchShowtimesByTheater] (La Prophétie de l'Horloge)[v:MovieTitle], (Gaumont Champs Elysées Marignan)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-z5m1y5hy1jhqqw22s3mupikjq) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au (C2L Poissy)[v:TheaterName] il y a (Ma Fille)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-z6y5qk3l8n9f58pmeqzvyou5h) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] C'est quoi le (1er)[v:SelectIndex:1] ?")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-zn6a85o09ejzf4i6pebjtjahe) {
+  utterance ("[g:SearchShowtimesByTheater] Y a (les Frères Sisters)[v:MovieTitle] que je veux voir, ça passe quand au (Gaumont Convention)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

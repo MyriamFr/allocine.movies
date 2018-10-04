@@ -1,0 +1,8 @@
+train (t-l9ecpa5vc7bv24bbvgg2gtp5b) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Montre plutôt le (2e)[v:SelectIndex:2].")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-lvxrmqxzcsl6cp2jv81j3f931) {
+  utterance ("[g:SearchShowtimesByTheater] À (Gaumont Convention)[v:TheaterName], est-ce qu'il y (Les Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

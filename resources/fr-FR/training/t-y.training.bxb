@@ -1,0 +1,16 @@
+train (t-y3qw6s1fxv0mh1ipk30wpl2be) {
+  utterance ("[g:SearchShowtimesByTheater] est-ce que le cinéma (ugc ciné cité)[v:TheaterName] passe (harry potter)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-y5ba9dbl2p0mui2a3x0oqbiit) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde si je peux aller voir (Hostiles)[v:MovieTitle] au (Café des Images)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-yb73no128eks33cnkjxvgtmfl) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'il passe à (MK2 Bibliothèque)[v:TheaterName], (La Saveur des Ramen)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-yu3gn6oh810mw1bzkaxa0v88x) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au (Gaumont Convention)[v:TheaterName] il y a des séances des (Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

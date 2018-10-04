@@ -1,0 +1,8 @@
+train (t-p9epnvldpr5r37wodvbuursji) {
+  utterance ("[g:SearchShowtimesByTheater] Peux-tu me chercher les horaires des séances de (Première Année)[v:MovieTitle] à l'(Espace Molière)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-ptqgqumg208vtb0smuggk01do) {
+  utterance ("[g:SearchShowtimesByTheater] Y'a-t-il des séances de (En eaux troubles)[v:MovieTitle] au (Pathé Massy)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

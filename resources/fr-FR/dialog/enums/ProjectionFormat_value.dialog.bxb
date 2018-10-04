@@ -1,0 +1,18 @@
+dialog (Value) {
+  match {
+    ProjectionFormat (this)
+  }
+
+  switch (this) {
+  case (F_2D ){template ("2D") }
+  case (F_3D ){template ("3D") }
+  case (F_4K ){template ("4D") }
+  case (F_70MM ){template ("70mm") }
+  case (ANALOG ){template ("Analogique") }
+  case (DIGITAL ){template ("Numérique") }
+  case (IMAX ){template ("Imax") }
+  case (IMAX3D ) {template ("Imax 3D") }
+  case (IMAX70MM) {template ("Imax 70mm") }
+
+  }
+}

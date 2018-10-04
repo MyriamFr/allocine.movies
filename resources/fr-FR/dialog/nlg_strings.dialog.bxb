@@ -1,0 +1,296 @@
+
+// ------------------------------------------------------------- //
+//                       CommonCheck                             //
+// ------------------------------------------------------------- //
+
+template-macro-def (Allocine_0_0_ApiError)
+{
+  content
+  {
+    template ("Je n'arrive pas à me connecter. Peux-tu réessayer plus tard ?")
+    { speech ("J'arrive pas à me connecter. Est-ce que tu peux réessayer plus tard ?") }
+  }
+}
+
+// ------------------------------------------------------------- //
+//                   GOAL: SearchMovie                           //
+// ------------------------------------------------------------- //
+
+// --- User didn't say the movie title.
+template-macro-def (Allocine_1_0_SearchMovie_MovieTitle_UserSaid_No)
+{
+  content
+  {
+    choose (Random) {
+      template ("Veux-tu voir un film en particulier ?")
+      { speech ("Est-ce que tu veux voir un film en particulier ?") }
+      template ("Quel film cherches-tu ?")
+      { speech ("Quel film tu cherches ?") }
+      template ("Quel film veux-tu voir ?")
+      { speech ("Quel film tu veux voir ?") }
+    }
+  }
+}
+
+// --- Bixby found a list of movies with the given title.
+template-macro-def (Allocine_1_1_SearchMovie_MovieTitle_Match_Multi)
+{
+  content
+  {
+    choose (Random) {
+      template ("Lequel cherches-tu ?")
+      { speech ("J'ai trouvé 3 films. C'est lequel que tu cherches ?") }
+    }
+  }
+}
+
+// --- Bixby found one movie with the given title.
+template-macro-def (Allocine_1_2_SearchMovie_MovieTitle_Match_Single)
+{
+  content
+  {
+    choose (Random) {
+      template ("Le voici.")
+      template ("Est-ce bien ce film que tu cherches ?")
+      { speech ("C'est bien ce film que tu cherches ?") }
+    }
+  }
+}
+
+// --- Bixby couldn't find any movie with this title.
+template-macro-def (Allocine_1_3_SearchMovie_MovieTitle_Match_No)
+{
+  content
+  {
+    choose (Random) {
+      template ("Je n'ai rien trouvé avec ce titre.")
+      template ("Ce film n'est pas dans notre base de données.")
+      template ("Il n'y a aucun film avec ce titre.")
+    }
+  }
+}
+
+
+// ------------------------------------------------------------- //
+//                   GOAL: SelectMovie                           //
+// ------------------------------------------------------------- //
+
+// --- The search movie action from the previous step wasn't successful.
+template-macro-def (Allocine_2_0_SelectMovie_SearchMovie_Failed_Yes)
+{
+  content
+  {
+    template ("SearchMovie action failed.")
+  }
+}
+
+// --- User didn't say which movie he/she want's to see.
+template-macro-def (Allocine_2_1_SelectMovie_SelectIndex_UserSaid_No)
+{
+  content
+  {
+    choose (Random)
+    {
+      template ("2_1")
+      template ("J'ai trouvé 3 films. Lequel cherches-tu ?")
+    }
+  }
+}
+
+// --- User gave a select index higher than the number of results.
+template-macro-def (Allocine_2_2_SelectMovie_SelectIndex_Valid_No)
+{
+  params
+  {
+    param (totalCount) { type (TotalCount) min (Optional) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("Peux-tu me dire un numéro dans la liste ?")
+      template ("Il n'y a pas autant de films dans la liste. Redis-moi lequel tu veux.")
+      if (exists (totalCount)) {
+        template ("J'en ai trouvé seulement #{value(totalCount)}. Peux-tu me redire lequel tu veux ?")
+      }
+    }
+  }
+}
+
+// --- Bixby displays the movie selected by the user.
+template-macro-def (Allocine_2_3_SelectMovie_SelectIndex_Match_Yes)
+{
+  content
+  {
+    template ("Le voici.")
+  }
+}
+
+
+// ------------------------------------------------------------- //
+//                GOAL: SearchShowtimes                          //
+// ------------------------------------------------------------- //
+
+// --- User didn't says which movie he/she wants to watch.
+template-macro-def (Allocine_3_0_SearchShowtimesByTheater_MovieTitle_UserSaid_No)
+{
+  content
+  {
+    template ("Quel film veux-tu aller voir ?")
+    { speech ("Quel film tu veux aller voir ?") }
+  }
+}
+
+// --- The movie hasn't been released in theaters yet.
+template-macro-def (Allocine_3_1_SearchShowtimesByTheater_MovieTitle_ReleasedInTheaters_No)
+{
+  params
+  {
+    param (releaseDate) { type (ReleaseDate) min (Required) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("Ce film n'est pas encore sorti en salles.")
+      template ("Ce film ne sort en salles que le #{value(releaseDate)}.")
+      template ("Il n'y a pas de séances pour ce film. Il n'est pas encore sorti en salles.")
+      // template ("La sortie de ce film est prévue le #{value(releaseDate)}.")
+    }
+  }
+}
+
+// --- The movie has no showtimes currently but has a showtime programmed in the future.
+template-macro-def (Allocine_3_2_SearchShowtimesByTheater_MovieTitle_FutureShowtimes_Yes)
+{
+  // params {
+  //   param (showtimesDate) { type (ReleaseDate) min (Required) max (One) }
+  // }
+  content
+  {
+    choose (Random)
+    {
+      // template ("La prochaine séance de ce film est programmée pour le #{value(showtimesDate)}.")
+      // template ("Ce film n'est pas à l'affiche actuellement. Sa prochaine diffusion est prévue le #{value(showtimesDate)}.")
+      template ("Ce film ne passe dans aucune salle actuellement.")
+      template ("Ce film ne passe plus au cinéma.")
+      template ("Ce film n'est à l'affiche dans aucune salle.")
+    }
+  }
+}
+
+// --- The movie has no showtimes currently.
+template-macro-def (Allocine_3_3_SearchShowtimesByTheater_MovieTitle_HasShowtimes_No)
+{
+  params
+  {
+    param (movieTitle) { type (MovieTitle) min (Required) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("#{value(movieTitle)} ne passe plus au cinéma.")
+      template ("#{value(movieTitle)} n'est à l'affiche dans aucune salle.")
+      template ("Aucune salle de cinéma ne passe #{value(movieTitle)}.")
+    }
+  }
+}
+
+// --- User didn't say in which theater he/she wants to see the movie.
+template-macro-def (Allocine_3_4_SearchShowtimesByTheater_TheaterName_UserSaid_No)
+{
+  content
+  {
+    choose (Random)
+    {
+      template ("Où veux-tu le voir ? Peux-tu me dire le nom d'une salle ?")
+      template ("Dans quelle salle veux-tu aller voir ce film ?")
+      { speech ("Où est-ce que tu le veux voir ? Tu peux me dire le nom d'une salle.") }
+      template ("Peux-tu me dire le nom de la salle où tu veux aller le voir ?")
+      { speech ("Est-ce que tu peux me dire le nom de la salle où tu veux aller le voir ?") }
+    }
+  }
+}
+
+// --- Bixby couldn't find any movie theater with the given name.
+template-macro-def (Allocine_3_5_SearchShowtimesByTheater_TheaterName_Match_No)
+{
+  params
+  {
+    param (theaterName) { type (TheaterName) min (Required) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("Je ne trouve pas le cinéma #{value(theaterName)}.")
+    }
+  }
+}
+
+// --- Bixby found multiple showtimes for the movie in this theater.
+template-macro-def (Allocine_3_6_SearchShowtimesByTheater_MovieTitle_Match_Multi)
+{
+  params
+  {
+    param (totalCount) { type (TotalCount) min (Required) max (One) }
+    param (movieTitle) { type (MovieTitle) min (Required) max (One) }
+    param (theaterName) { type (TheaterName) min (Required) max (One) }
+    param (startsAt) { type (StartsAt) min (Required) max (One) }  // horaire de la dernière séance
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("Voici les séances d'aujourd'hui.")
+      template ("Il y a #{value(totalCount)} séances disponibles aujourd'hui.")
+      template ("Tu as le choix entre ces #{value(totalCount)} séances aujourd'hui.")
+      template ("Aujourd'hui, ils ont #{value(totalCount)} séances pour ce film.")
+      template ("Il y a #{value(totalCount)} aujourd'hui. La dernière est à #{value(startsAt)}")
+      template ("Voici les séances disponibles. La dernière est à #{value(startsAt)}.")
+    }
+  }
+}
+
+// --- Bixby found one showtimes for the movie in this theater.
+template-macro-def (Allocine_3_7_SearchShowtimesByTheater_MovieTitle_Match_Single)
+{
+  params
+  {
+    param (movieTitle) { type (MovieTitle) min (Required) max (One) }
+    param (theaterName) { type (TheaterName) min (Required) max (One) }
+    param (startsAt) { type (StartsAt) min (Required) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      // template ("Le cinéma #{value(theaterName)} propose une seule séance de ce film à #{value(startsAt)}.")
+      template ("Il y a une séance à #{value(startsAt)} au cinéma #{value(theaterName)}.")
+      template ("Il y a une séance disponible à #{value(startsAt)}.")
+      template ("Il y a une séance à #{value(startsAt)}.")
+      template ("La seule séance disponible est à #{value(startsAt)}.")
+    }
+  }
+}
+
+// --- The movie is not shown in this theater.
+template-macro-def (Allocine_3_8_SearchShowtimesByTheater_MovieTitle_Match_No)
+{
+  params
+  {
+    param (movieTitle) { type (MovieTitle) min (Required) max (One) }
+    param (theaterName) { type (TheaterName) min (Required) max (One) }
+  }
+  content
+  {
+    choose (Random)
+    {
+      template ("#{value(movieTitle)} ne passe pas au cinéma #{value(theaterName)}.")
+      template ("#{value(movieTitle)} n'est pas à l'affiche au cinéma #{value(theaterName)}.")
+      template ("Ils ne passent pas #{value(movieTitle)}, au cinéma #{value(theaterName)}.")
+      template ("Il n'y a pas de séances de #{value(movieTitle)} au cinéma #{value(theaterName)}.")
+    }
+  }
+}

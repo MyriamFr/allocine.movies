@@ -1,0 +1,37 @@
+hints
+{
+  // --- Goal: SearchMovie
+  hint-set (Chercher un film) {
+    utterance ("[g:SearchMovie] Bixby, montre-moi la fiche du film (Les Frères Sisters)[v:MovieTitle].")
+    utterance ("[g:SearchMovie] Bixby, montre-moi la fiche du film (Les Frères Sisters)[v:MovieTitle].")
+  }
+  
+  // --- Goal: SelectMovie
+  hint-set (Choisir un film)
+  {
+    utterance ("[g:SelectMovie] Le (deuxième)[v:SelectIndex:2] a l'air pas mal.")
+    utterance ("[g:SelectMovie] Et le (troisième)[v:SelectIndex:1], qu'est-ce que c'est ?")
+    utterance ("[g:SelectMovie] Fais voir le (dernier)[v:SelectIndex:-1].")
+  }
+  
+  // --- Goal: SearchShowtimesByTheater
+  hint-set (Chercher des séances dans une salle)
+  {
+    utterance ("[g:SearchShowtimesByTheater] Est-ce qu'au (C2L Poissy)[v:TheaterName] ils passent (Ma Fille)[v:MovieTitle] ?")
+    utterance ("[g:SearchShowtimesByTheater] Regarde s'il y a (Un nouveau jour sur Terre)[v:MovieTitle] au (Pathé Conflans)[v:TheaterName].")
+    // L'utilisateur a précisé le titre du film mais pas la salle de cinéma, ou l'inverse :
+    utterance ("[g:SearchShowtimesByTheater] Avec mes enfants, on veut aller voir (Croc Blanc)[v:MovieTitle] au cinéma.")
+    // L'utilisateur n'a fourni ni un titre de film, ni une salle de cinéma :
+    utterance ("[g:SearchShowtimesByTheater] J'aimerais bien aller voir un film au (MK2 Bibliothèque)[v:TheaterName].")
+  }
+  
+  // --- Goal: SearchShowtimes
+  // hint-set (Chercher des séances dans les cinémas du coin)
+  
+  // --- Goal: 
+  // hint-set (Connaître les films à l'affiche, sorties de la semaine...)
+  // {
+  //   utterance ("[g:SearchShowtimesByTheater] Qu'est-ce qu'ils passent en ce moment au (MK2 Bibliothèque)[v:TheaterName] ?")
+  //   utterance ("[g:SearchShowtimesByTheater] Quelles sont les sorties de la semaines ?")
+  // }
+}

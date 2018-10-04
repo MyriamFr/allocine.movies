@@ -1,0 +1,24 @@
+train (t-q1sevvj6gngnpzura2ld8vnci) {
+  utterance ("[g:allocine.movies.SearchMovie] Montre - moi la fiche du film (jason bourne)[v:MovieTitle].")
+  plan (Y2BhUErMyclPzsxL1cvNL8tMLdYLTk0sSs7wBXGCUotLc0qKGaTxqGEwwSOpkpyfV1xSlJiZV6ILlvVOrSzPL0opZpBC1wVWH5JZkpPKwMzAyMAEJBnANCMDBIBYQDEA)
+}
+train (t-q5l07y6lxxuezesvqp6b4suf8) {
+  utterance ("[g:SearchShowtimesByTheater] (I Feel Good)[v:MovieTitle], il passe au (Jeanne Moreau)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-q91d4ttqqzojk7wv31a0on2g0) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde si au (Ciné 32 Gascogne)[v:TheaterName] y a (Jérico, le vol infini des jours)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-qfujgfgxsja9t5gyu0pvvtrwc) {
+  utterance ("[g:SearchShowtimesByTheater] Je cherche les séances de (Alad'2)[v:MovieTitle] au (UGC Odéon)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-qi32nppxlbp9nyoc1csvjkk5n) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Est-ce que je peux voir le (dernier)[v:SelectIndex:-1] ?")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}
+train (t-qy5xwodygofew6l8oq3mlsb9w) {
+  utterance ("[g:SelectMovie:continue:SearchMovie] Je veux voir le (2ème)[v:SelectIndex:2].")
+  plan (Y2BlUErMyclPzsxL1cvNL8tMLdYLTs1JTS7xBXGCUotLc0qKGaTxqMFmQGJRcgaKASZ4DFBJzs8rLilKzMwr0S0GC3unVpbnF6XgstYzLyW1goGFgZGBiYEZSDMAWYxAFiMDDDAB2UBxAA==)
+}

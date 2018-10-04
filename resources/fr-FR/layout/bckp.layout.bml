@@ -1,0 +1,100 @@
+
+
+<!-- ----- MOVIE VIDEOS ----- -->
+        
+        <div class="mediaSectionTitle">
+          
+          <!-- Titre de section -->
+          <h1 class="sectionTitle">
+            Vidéos
+            <span class="infosLabel">
+              &nbsp;&#8226;&nbsp;
+              {{#if exists(movie.videosCount)}}
+                {{movie.videosCount}}
+              {{/if}}
+            </span>
+          </h1>
+        </div><!-- fin section VIDEOS -->
+        
+        <div class="mediaSection">
+          <ul class="mediaGallery">
+            {{#if exists(movie.videos)}}
+              {{#each movie.videos : i}}
+                <li class="videoGalleryItem">
+                  <div class="videoSection">
+                    <img class="videoThumbnail" src="{{movie.videos[i].snapshot.url}}">
+                    <div class="videoDuration">
+                      &#9654; {{movie.videos[i].duration}}
+                    </div>
+                  </div>
+                  <div class="videoTitle">
+                    {{movie.videos[i].title}}
+                  </div>
+                </li>
+              {{/each}}
+            {{/if}}
+          </ul>
+        </div><!-- fin section VIDEOS -->
+        <hr class="separator">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----- MOVIE TRAILER ----- -->
+        
+        <div class="trailerSection">
+          {{#if exists(movie.videos)}}
+            {{#each movie.videos : i}}
+              {{#if movie.videos[i].type == "TRAILER"}}
+                {{#if exists(movie.videos[i].files.url)}}
+                  <a href="{{movie.videos[i].files.url}}">
+                    <img class="trailerThumbnail" src="{{movie.videos[i].snapshot.url}}">
+                    <div class="trailerTitle">
+                      {{movie.videos[i].title}}
+                    </div>
+                  </a>
+                {{/if}}
+              {{/if}}
+            {{/each}}
+          {{/if}}
+        </div><!-- fin section MOVIE TRAILER -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="mediaSection">
+          <ul class="mediaGallery">
+            {{#if exists(movie.images)}}
+              {{#each movie.images : i}}
+                {{#if exists(movie.images[i].url)}}
+                 <li class="mediaGalleryItem mediaGalleryItemSquare" style="background-image:url({{{movie.images[i].url}}})">
+                      <img class="poster" src="{{movie.images[i].url}}">
+                  </li>
+                {{/if}}
+              {{/each}}
+            {{/if}}
+          </ul>
+        </div>
+        <!-- fin section PHOTOS -->

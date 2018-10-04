@@ -1,0 +1,28 @@
+train (t-b15na776nohl8n053bu5ab9mq) {
+  utterance ("[g:SearchShowtimesByTheater] Regarde si au (Kinépolis Mulhouse)[v:TheaterName] ils passent (Albert Giacometti)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-b2z5stpbw5i6e9jisz3erh8wx) {
+  utterance ("[g:SearchShowtimesByTheater] Les séances de Les (Frères Sisters)[v:MovieTitle] à (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-b6d9cw9m75f6js5y3vifc4m6k) {
+  utterance ("[g:SearchShowtimesByTheater] Au (UGC Normandie)[v:TheaterName], y a des séances de (En guerre)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-bear7xs5cl4r0du97mih6cyuk) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce que ça passe au (Gaumont Convention)[v:TheaterName], les (Frères Sisters)[v:MovieTitle] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-bfu6p734or6y1wr9jw65i2tv4) {
+  utterance ("[g:SearchShowtimesByTheater] Est-ce qu'ils passent (16 levers de soleil)[v:MovieTitle] au (UGC Ciné Cité les Halles)[v:TheaterName] ?")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-bqmzps507lffjo3ogxl9b5pru) {
+  utterance ("[g:SearchShowtimesByTheater] Cherche les horaires des (Frères Sisters)[v:MovieTitle] au (Gaumont Convention)[v:TheaterName].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}
+train (t-bw20yjmibcz9dgq4cvg0o4fo7) {
+  utterance ("[g:SearchShowtimesByTheater] Je vais au (Gaumont Convention)[v:TheaterName] pour voir (Les Frères Sisters)[v:MovieTitle].")
+  plan (Y2Bh0E/MyclPzsxL1cvNL8tMLdYLTk0sSs4IzsgvL8nMTS12qgzJSE0sSS0KSi0uzSkpZtAgVgODFLpKXxAVklmSk8ogjS4H1eSXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+}

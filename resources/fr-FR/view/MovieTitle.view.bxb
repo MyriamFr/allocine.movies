@@ -1,0 +1,29 @@
+input-view
+{
+  match : MovieTitle (this)
+  
+  message
+  {
+    template-macro (Allocine_1_0_SearchMovie_MovieTitle_UserSaid_No)
+  }
+  
+  render {
+    form {
+      on-submit {
+        goal: SearchMovie
+        value: viv.core.FormElement (movieTitle)       
+      }
+      submit-button {
+        template ("Chercher ce film")
+      }
+      elements {     
+        text-input {
+          id ("movieTitle")
+          type (MovieTitle)
+          value ("Titre du film")
+        }
+      }
+    }
+  }
+  
+}

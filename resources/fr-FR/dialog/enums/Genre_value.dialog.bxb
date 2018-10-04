@@ -1,0 +1,47 @@
+dialog (Value) {
+  match {
+    Genre (this)
+  }
+
+  switch (this) {
+    case (ACTION) { template("Action") }
+    case (ADVENTURE) { template("Aventure") }
+    case (FANTASY) { template("Fantasy") }
+    case (ANIMATION) { template("Animation") }
+    case (BIOPIC) { template("Biopic") }
+    case (BOLLYWOOD) { template("Bollywood") }
+    case (CARTOON) { template("Dessin Animé") }
+    case (CLASSIC) { template("Classique") }
+    case (COMEDY) { template("Comédie") }
+    case (COMEDY_DRAMA) { template("Comédie dramatique") }
+    case (CONCERT) { template("Concert") }
+    case (DETECTIVE) { template("Détective") }
+    case (DIVERS) { template("Divers") }
+    case (DOCUMENTARY) { template("Documentaire") }
+    case (DRAMA) { template("Drame") }
+    case (EROTIC) { template("Erotique") }
+    case (EXPERIMENTAL) { template("Expérimental") }
+    case (FAMILY) { template("Famille") }
+    case (HISTORICAL) { template("Historique") }
+    case (HISTORICAL_EPIC) { template("Epopée historique") }
+    case (HORROR) { template("Horreur") }
+    case (JUDICIAL) { template("Judiciaire") }
+    case (KOREAN_DRAMA) { template("Drame coréen") }
+    case (MARTIAL_ARTS) { template("Arts martiaux") }
+    case (MEDICAL) { template("Médical") }
+    case (MOVIE_NIGHT) { template("Soirée ciné") }
+    case (MUSIC) { template("Musique") }
+    case (MUSICAL) { template("Musical") }
+    case (OPERA) { template("Opéra") }
+    case (ROMANCE) { template("Romantique") }
+    case (SCIENCE_FICTION) { template("Science Fiction") }
+    case (PERFORMANCE) { template("Performance") }
+    case (SOAP) { template("Soap") }
+    case (SPORT_EVENT) { template("Evénement sportif") }
+    case (SPY) { template("Espionnage") }
+    case (THRILLER) { template("Thriller") }
+    case (WARMOVIE) { template("Warmovie") }
+    case (WEBSERIES) { template("Web série") }
+    case (WESTERN) { template("Western") }
+  }
+}

@@ -1,0 +1,201 @@
+dialog (Value) {
+  match {
+    Country (this)
+  }
+ switch (this) {
+case (AFGHANISTAN) {template("Afghanistan")}
+case (ALBANIA) {template("Albanie")}
+case (ALGERIA) {template("Algérie")}
+case (ANDORRA) {template("Andorre")}
+case (ANGOLA) {template("Angola")}
+case (ANTIGUA_AND_BARBUDA) {template("Antigua et Barbuda")}
+case (ARGENTINA) {template("Argentine")}
+case (ARMENIA) {template("Arménie")}
+case (AUSTRALIA) {template("Australie")}
+case (AUSTRIA) {template("Autriche")}
+case (AZERBAIDJAN) {template("Azerbaidjan")}
+case (BAHAMAS) {template("Bahamas")}
+case (BAHREIN) {template("Bahrein")}
+case (BANGLADESH) {template("Bangladesh")}
+case (BARBADOS) {template("Barbade")}
+case (BELGIUM) {template("Belgique")}
+case (BELIZE) {template("Belize")}
+case (BENIN) {template("Bénin")}
+case (BERMUDA) {template("Bermudes")}
+case (BHUTAN) {template("Bhoutan")}
+case (BOLIVIA) {template("Bolivie")}
+case (BOSNIA) {template("Bosnie-Herzégovine")}
+case (BOTSWANA) {template("Botswana")}
+case (BRAZIL) {template("Brésil")}
+case (BRUNEI_DARUSSALAM) {template("Brunei")}
+case (BULGARIA) {template("Bulgarie")}
+case (BURKINA_FASO) {template("Burkina Faso")}
+case (BURMA) {template("Myanmar")}
+case (BURUNDI) {template("Burundi")}
+case (BYELORUSSIA) {template("Bélarus")}
+case (CAMBODIA) {template("Cambodge")}
+case (CAMEROON) {template("Cameroun")}
+case (CANADA) {template("Canada")}
+case (CAPE_VERDE) {template("Cap-Vert")}
+case (CHAD) {template("Tchad")}
+case (CHILI) {template("Chili")}
+case (CHINA) {template("Chine")}
+case (COLOMBIA) {template("Colombie")}
+case (COMOROS) {template("Comores")}
+case (CONGO_COD) {template("République démocratique du Congo")}
+case (CONGO_COG) {template("République du Congo")}
+case (COSTA_RICA) {template("Costa Rica")}
+case (CROATIA) {template("Croatie")}
+case (CUBA) {template("Cuba")}
+case (CYPRUS) {template("Chypre")}
+case (CZECHOSLOVAKIA) {template("Czechoslovakia")}
+case (CZECH_REPUBLIC) {template("République tchèque")}
+case (DENMARK) {template("Danemark")}
+case (DJIBOUTI) {template("Djibouti")}
+case (DOMINICA) {template("Dominique")}
+case (DOMINICAN_REPUBLIC) {template("République dominicaine")}
+case (EAST_GERMANY) {template("Allemagne de l'Est")}
+case (ECUADO_GUINEA) {template("Guinée équatoriale")}
+case (EGYPT) {template("Égypte")}
+case (EQUATOR) {template("Équateur")}
+case (ERITREA) {template("Érythrée")}
+case (ESTONIA) {template("Estonie")}
+case (ETHIOPIA) {template("Éthiopie")}
+case (FINLAND) {template("Finlande")}
+case (FRANCE) {template("France")}
+case (GABON) {template("Gabon")}
+case (GEORGIA) {template("Géorgie")}
+case (GERMANY) {template("Allemagne")}
+case (GHANA) {template("Ghana")}
+case (GREECE) {template("Grèce")}
+case (GRENADA) {template("Grenade")}
+case (GUAMBIA) {template("Guambie")}
+case (GUATEMALA) {template("Guatemala ")}
+case (GUINEA) {template("Guinée")}
+case (GUINEA_BISSAU) {template("Guinée-Bissau ")}
+case (GUYANA) {template("Guyana")}
+case (HAITI) {template("Haïti")}
+case (HONDURAS) {template("Honduras")}
+case (HONGKONG) {template("Hong kong")}
+case (HUNGARIA) {template("Hongrie")}
+case (ICELAND) {template("Islande")}
+case (INDIA) {template("Inde")}
+case (INDONESIA) {template("Indonésie")}
+case (IRAN) {template("Iran")}
+case (IRAQ) {template("Iraq")}
+case (IRELAND) {template("Irlande")}
+case (ISRAEL) {template("Israël")}
+case (ITALY) {template("Italie")}
+case (IVORY_COAST) {template("Côte d’Ivoire")}
+case (JAMAICA) {template("Jamaïque")}
+case (JAPAN) {template("Japon")}
+case (JORDAN) {template("Jordanie")}
+case (KAZAKHSTAN) {template("Kazakhstan")}
+case (KENYA) {template("Kenya")}
+case (KIRGHIZISTAN) {template("Kirghizistan ")}
+case (KIRIBATI) {template("Kiribati")}
+case (KOREA) {template("Corée")}
+case (KUWAIT) {template("Koweït ")}
+case (LAOS) {template("Laos")}
+case (LATVIA) {template("Lettonie")}
+case (LEBANON) {template("Liban")}
+case (LESOTHO) {template("Lesotho")}
+case (LIBERIA) {template("Libéria")}
+case (LIBIA) {template("Libye")}
+case (LIECHTENSTEIN) {template("Liechtenstein")}
+case (LITHUANIA) {template("Lituanie")}
+case (LUXEMBOURG) {template("Luxembourg")}
+case (MACEDONIA) {template("Macédoine")}
+case (MADAGASCAR) {template("Madagascar")}
+case (MALAWI) {template("Malawi")}
+case (MALAYSIA) {template("Malaisie")}
+case (MALDIVES) {template()}
+case (MALI) {template("Malawi")}
+case (MALTA) {template("Malte")}
+case (MAURITANIA) {template("Mauritanie")}
+case (MAURITIUS) {template("Maurice")}
+case (MEXICO) {template("Mexique")}
+case (MICRONESIA) {template("Micronésie")}
+case (MOLDAVIA) {template("Moldavie")}
+case (MONACO) {template("Monaco")}
+case (MONGOLIA) {template("Mongolie")}
+case (MONTENEGRO) {template("Monténégro")}
+case (MOROCCO) {template("Maroc")}
+case (MOZAMBIC) {template("Mozambique")}
+case (NAMIBIA) {template("Namibie")}
+case (NEPAL) {template("Népal")}
+case (NETHERLANDS) {template("Pays-Bas")}
+case (NEW_ZEALAND) {template("Nouvelle-Zélande")}
+case (NICARAGUA) {template("Nicaragua")}
+case (NIGER) {template("Niger")}
+case (NIGERIA) {template("Nigéria ")}
+case (NORTH_KOREA) {template("Corée du nord")}
+case (NORWAY) {template("Norvège")}
+case (OMAN) {template("Oman")}
+case (PAKISTAN) {template("Pakistan ")}
+case (PALESTINE) {template("Palestine")}
+case (PANAMA) {template("Panama")}
+case (PAPUA_NEW_GUINEA) {template("Papouasie-Nouvelle-Guinée")}
+case (PARAGUAY) {template("Paraguay")}
+case (PERU) {template("Pérou")}
+case (PHILIPPINES) {template("Philippines")}
+case (POLAND) {template("Pologne")}
+case (PORTO_RICO) {template("Porto Rico")}
+case (PORTUGAL) {template("Portugal")}
+case (QATAR) {template("Qatar")}
+case (ROMANIA) {template("Roumanie")}
+case (RUSSIA) {template("Russie ")}
+case (RWANDA) {template("Rwanda")}
+case (SAINT_LUCIA) {template("Sainte-Lucie")}
+case (SAINT_VINCENT_AND_THE_GRENADINES) {template("Saint-Vincent-et-les Grenadines ")}
+case (SALVADOR) {template("Salvador ")}
+case (SAMOA) {template("Samoa")}
+case (SAO_TOME_AND_PRINCIPE) {template("Sao Tomé-et-Principe ")}
+case (SAUDI_ARABIA) {template("Arabie Saoudite")}
+case (SENEGAL) {template("Sénégal")}
+case (SERBIA) {template("Serbie")}
+case (SEYCHELLES) {template("Seychelles")}
+case (SIERRA_LEONE) {template("Sierra Leone")}
+case (SINGAPOR) {template("Singapour")}
+case (SLOVAKIA) {template("Slovaquie")}
+case (SLOVENIA) {template("Slovénie")}
+case (SOMALIA) {template("Somalie")}
+case (SOUTH_AFRICA) {template("Afrique du Sud")}
+case (SOUTH_KOREA) {template("Corée du Sud")}
+case (SPAIN) {template("Espagne")}
+case (SRI_LANKA) {template("Sri Lanka")}
+case (SUDAN) {template("Soudan")}
+case (SURINAME) {template("Suriname")}
+case (SWAZILAND) {template("Swaziland")}
+case (SWEDEN) {template("Suède")}
+case (SWITZERLAND) {template("Suisse")}
+case (SYRIA) {template("Syrie")}
+case (TAIWAN) {template("Taïwan")}
+case (TAJIKISTAN) {template("Tadjikistan")}
+case (TANZANIA) {template("Tanzanie")}
+case (THAILAND) {template("Thaïlande")}
+case (TIMOR_LESTE) {template("Timor oriental")}
+case (TOGO) {template("Togo")}
+case (TONGA) {template("Tonga")}
+case (TRINIDAD_AND_TOBAGO) {template("Trinité-et-Tobago ")}
+case (TUNISIA) {template("Tunisie")}
+case (TURKEY) {template("Turquie")}
+case (TURKMENISTAN) {template("Turkménistan")}
+case (TUVALU) {template("Tuvalu")}
+case (UGANDA) {template("Ouganda")}
+case (UKRAINIA) {template("Ukraine")}
+case (UNITED_ARAB_EMIRATES) {template("Émirats arabes unis")}
+case (UNITED_KINGDOM) {template("Royaume-Uni")}
+case (URUGUAY) {template("Uruguay")}
+case (USA) {template("États-Unis")}
+case (UZBEKISTAN) {template("Ouzbékistan")}
+case (VANUATU) {template("Vanuatu")}
+case (VENEZUELA) {template("Venezuela")}
+case (VIETNAM) {template("Vietnam ")}
+case (WEST_GERMANY) {template("Allemagne de l'Ouest")}
+case (YEMEN) {template("Yémen")}
+case (ZAIRE) {template("Zaïre")}
+case (ZAMBIA) {template("Zambie")}
+    case (ZIMBABWE) {template("Zimbabwe")}
+  }
+}

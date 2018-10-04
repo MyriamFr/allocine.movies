@@ -1,0 +1,681 @@
+vocab (PersonActivity) {
+    "ACTOR" {
+    "acteur"
+  }
+    "DIGITAL_EFFECTS" {
+    "effets numériques"
+  }
+    "DISTRIBUTION" {
+    "Distribution"
+  }
+    "DISTRIBUTION_COORDINATION" {
+    "coordination de la distribution"
+  }
+    "FOREIGN_DISTRIBUTOR" {
+    "biopic"
+  }
+    "FRENCH_DISRIBUTOR" {
+    "bollywood"
+  }
+    "INTERNATIONAL_DISTRIBUTION_EXPORTS_COMPANIES" {
+    "dessin animé"
+  }
+    "FIRST_ASSISTANT_DIRECTOR" {
+    "classique"
+  }
+    "FIRST_CAMERA_ASSISTANT" {
+    "comédie"
+  }
+    "SPECIAL_EFFECTS_2D" {
+    "comédie dramatique"
+  }  
+    "SECOND_ASSISTANT_DIRECTOR" {
+    "concert"
+  } 
+     "SECOND_CAMERA_ASSISTANT" {
+    "détective"
+  }
+    "SECOND_UNIT_DIRECTOR" {
+    "divers"
+  }
+    "THIRD_ASSISTANT_DIRECTOR" {
+    "documentaire"
+  }
+    "ACTING_COACHING" {
+    "drame"
+  }
+    "ANIMAL_HANDLER" {
+    "érotique"
+  }
+    "ANIMATIC" {
+    "experimental"
+  }  
+    "ANIMATION_AND_VISUAL_EFFECTS_SUPERVISOR" {
+    "famille"
+  }  
+    "ANIMATOR" {
+    "fantasie"
+  } 
+    "ART_DIRECTOR" {
+    "historique"
+  } 
+    "ART_SUPERVISOR" {
+    "epic historique"
+  } 
+    "ARTISTIC_CONSULTANT" {
+    "horreur"
+  } 
+    "ASSISTANT_COSTUME_DESIGNER" {
+    "judicaire"
+  } 
+    "ASSISTANT_DIRECTOR" {
+    "drama coréen"
+  } 
+    "ASSISTANT_PRODUCTION" {
+    "arts martiaux"
+  }
+    "ASSISTANT_EDITOR" {
+    "médical"
+  }
+    "ASSISTANT_FIGHT_CHOREOGRAPHER" {
+    "soirée film"
+  } 
+    "ASSISTANT_PRODUCTION_CO_ORDINATOR" {
+    "la musique"
+  } 
+    "ASSISTANT_SET_DECORATOR" {
+    "musical"
+  } 
+    "ASSISTANT_SET_DRESSER" {
+    "opéra"
+  }
+    "ASSISTANT_STUNT_COORDINATOR" {
+    "romance"
+  }
+    "ASSISTANT_TECHNICAL_ADVISOR" {
+    "science fiction"
+  }
+    "ASSISTANT_TO_ART_DIRECTOR" {
+    "performance"
+  }
+    "ASSISTANT_UNIT_MANAGER" {
+    "série télévisée"
+  }
+    "ASSOCIATE_EDITOR" {
+    "événement sportif"
+  }
+    "B_CAMERA" {
+    "espion"
+  }
+    "BOOM_OPERATOR" {
+    "thriller"
+  }
+    "CAMERA_ASSISTANT" {
+    "film de guerre"
+  }
+    "CAMERA_OPERATOR" {
+    "série web"
+  }
+    "CASTING_DIRECTOR" {
+    "western"
+  }
+    "CASTING_DIRECTOR_CHILDREN" {
+    "science fiction"
+  }
+    "CASTING_PRODUCER" {
+    "performance"
+  }
+    "CG_SUPERVISOR" {
+    "série télévisée"
+  }
+    "CHARACTER_ANIMATION_SUPERVISOR" {
+    "événement sportif"
+  }
+    "CHARACTER_EFFECTS" {
+    "espion"
+  }
+    "CHARACTER_GRAPHIC_CREATION" {
+    "thriller"
+  }
+    "CHARACTER_PAINTING_SUPERVISOR" {
+    "film de guerre"
+  }
+    "CHARACTER_SPECIAL_EFFECTS" {
+    "série web"
+  }
+    "CHARACTER_TECHNICAL_DIRECTOR" {
+    "western"
+  }
+      "CHILDREN_S_COACH" {
+    "action"
+  }
+    "CHOREOGRAPHER" {
+    "aventure"
+  }
+    "COLORIST" {
+    "animation"
+  }
+    "COMPOSITING_SUPERVISOR" {
+    "biopic"
+  }
+    "CONCEPT_ARTIST" {
+    "bollywood"
+  }
+    "CONSULTANT" {
+    "dessin animé"
+  }
+    "COSTUME_DESIGNER" {
+    "classique"
+  }
+    "COSTUME_SUPERVISOR" {
+    "comédie"
+  }
+    "CROWD" {
+    "comédie dramatique"
+  }  
+    "DANCER" {
+    "concert"
+  } 
+    "DIALOGUE_EDITOR" {
+    "détective"
+  }
+    "DIALOGUE_EDITOR_SUPERVISOR" {
+    "divers"
+  }
+    "DIRECTOR_OF_PHOTOGRAPHY" {
+    "documentaire"
+  }
+    "DIRECTOR_OF_PHOTOGRAPHY_ASSISTANT" {
+    "drame"
+  }
+    "DUBBING_ASSISTANT" {
+    "érotique"
+  }
+    "EDITOR" {
+    "experimental"
+  }  
+    "EDITOR_IN_CHIEF" {
+    "famille"
+  }  
+    "ELECTRICIANS" {
+    "fantasie"
+  } 
+    "EXECUTIVE_DIRECTOR" {
+    "historique"
+  } 
+    "EXTRAS_CASTING" {
+    "epic historique"
+  } 
+    "FIGHT_CHOREOGRAPHER" {
+    "horreur"
+  } 
+    "FILM_POSTER_BY" {
+    "judicaire"
+  } 
+    "FOLEY_ARTIST" {
+    "drama coréen"
+  } 
+    "FOLEY_EDITOR" {
+    "arts martiaux"
+  }
+    "FOLEY_RECORDIST" {
+    "médical"
+  }
+    "GAFFER" {
+    "soirée film"
+  } 
+    "GRAPHIC_DESIGNER" {
+    "la musique"
+  } 
+    "HAIR" {
+    "musical"
+  } 
+    "HAIRDRESSER_SUPERVISOR" {
+    "opéra"
+  }
+    "HEAD_COSTUMER" {
+    "romance"
+  }
+    "ILLUSTRATOR" {
+    "science fiction"
+  }
+    "KEY_GRIP" {
+    "performance"
+  }
+    "LAYOUT" {
+    "série télévisée"
+  }
+    "LAYOUT_SUPERVISOR" {
+    "événement sportif"
+  }
+    "LEAD_MAN" {
+    "espion"
+  }
+    "LEGAL_ADVISOR" {
+    "thriller"
+  }
+    "LIGHTING" {
+    "film de guerre"
+  }
+    "LIGHTING_DIRECTOR" {
+    "série web"
+  }
+    "LOCATION_ASSISTANT_ASSISTANT" {
+    "western"
+  }
+      "LOCATION_MANAGER" {
+    "action"
+  }
+    "LOCATION_SCOUT" {
+    "aventure"
+  }
+    "MAKE_UP" {
+    "animation"
+  }
+    "MAKE_UP_ASSISTANT" {
+    "biopic"
+  }
+    "MAKE_UP_SUPERVISOR" {
+    "bollywood"
+  }
+    "MAKE_UP_VISUAL_EFFECTS" {
+    "dessin animé"
+  }
+    "MAKING_OF_BY" {
+    "classique"
+  }
+    "MATTE_PAINTER" {
+    "comédie"
+  }
+    "MODEL_MAKER" {
+    "comédie dramatique"
+  }  
+  "MODELLING" {
+    "concert"
+  } 
+  "PAINTER" {
+    "détective"
+  }
+    "PHOTOGRAPHER" {
+    "divers"
+  }
+    "PICTURE_RESTORATION" {
+    "documentaire"
+  }
+    "POST_PRODUCTION_COORDINATOR" {
+    "drame"
+  }
+    "POST_PRODUCTION_PRODUCER" {
+    "érotique"
+  }
+    "POST_PRODUCTION_SUPERVISOR" {
+    "experimental"
+  }  
+    "POST_PRODUCTION_DIRECTOR" {
+    "famille"
+  }  
+    "PRODUCTION_CREW" {
+    "fantasie"
+  } 
+    "PRODUCTION_ADMINISTRATOR" {
+    "historique"
+  } 
+    "PRODUCTION_ASSISTANT" {
+    "epic historique"
+  } 
+    "PRODUCTION_CO_ORDINATOR" {
+    "horreur"
+  } 
+    "PRODUCTION_COORDINATOR" {
+    "judicaire"
+  } 
+    "PRODUCTION_COORDINATOR_DIRECTOR" {
+    "drama coréen"
+  } 
+    "PRODUCTION_DESIGNER" {
+    "arts martiaux"
+  }
+    "PRODUCTION_DIRECTOR" {
+    "médical"
+  }
+    "PRODUCTION_MANAGER" {
+    "soirée film"
+  } 
+    "PRODUCTION_SECRETARY" {
+    "la musique"
+  } 
+    "PRODUCTION_SUPERVISOR_MANAGER" {
+    "musical"
+  } 
+    "PRODUCTION_SUPERVISOR" {
+    "opéra"
+  }
+    "PROP_MASTER" {
+    "romance"
+  }
+    "PUPPETEER" {
+    "science fiction"
+  }
+    "SCANNING_LASER3D" {
+    "performance"
+  }
+    "SECOND_UNIT_CINEMATOGRAPHER" {
+    "série télévisée"
+  }
+    "SECOND_UNIT_STUNT_COORDINATOR" {
+    "événement sportif"
+  }
+    "SET_DECORATOR" {
+    "espion"
+  }
+    "SET_DECORATOR_ASSEMBLER" {
+    "thriller"
+  }
+    "SET_IN_COLOR" {
+    "film de guerre"
+  }
+    "SOUND_ASSISTANT" {
+    "série web"
+  }
+    "SOUND_CREATION" {
+    "western"
+  }
+    "SOUND_DESIGN" {
+    "action"
+  }
+    "SOUND_DESIGNER" {
+    "aventure"
+  }
+    "SOUND_EDITOR" {
+    "animation"
+  }
+    "SOUND_EFFECTS_EDITOR" {
+    "biopic"
+  }
+    "SOUND_MIXING" {
+    "bollywood"
+  }
+    "SOUND_RESTORATION" {
+    "dessin animé"
+  }
+    "SOUND_EFFECTS_ENGINEER" {
+    "classique"
+  }
+    "SPECIAL_EFFECTS" {
+    "comédie"
+  }
+    "SPORTS_COACH" {
+    "comédie dramatique"
+  }  
+    "STAGEHAND" {
+    "concert"
+  } 
+    "STEREOGRAPHIC_ANIMATION" {
+    "détective"
+  }
+    "STEREOSCOPIC_SUPERVISOR" {
+    "divers"
+  }
+    "STILLS_PHOTOGRAPHER" {
+    "documentaire"
+  }
+    "STORY" {
+    "drame"
+  }
+    "STORYBOARD_ARTIST" {
+    "érotique"
+  }
+    "STUNT_COORDINATOR_CHEF" {
+    "experimental"
+  }  
+    "STUNT_COORDINATOR" {
+    "famille"
+  }  
+    "STUNTS" {
+    "fantasie"
+  } 
+    "STUNTS_RIGGER" {
+    "historique"
+  } 
+    "STYLIST" {
+    "epic historique"
+  } 
+    "SUBMARINE_PHOTOGRAPHY" {
+    "horreur"
+  } 
+    "SUBTITLES" {
+    "judicaire"
+  } 
+    "SUPPORT_ADDITIONAL_LOCATION_ASSISTANT_CHEF" {
+    "drama coréen"
+  } 
+    "SUPPORT_ADDITIONAL_LOCATION_ASSISTANT" {
+    "arts martiaux"
+  }
+    "TAMER" {
+    "médical"
+  }
+    "TECHNICAL_ADVISOR" {
+    "soirée film"
+  } 
+    "TECHNICAL_DIRECTOR" {
+    "la musique"
+  } 
+    "TECHNICAL_SUPERVISOR" {
+    "musical"
+  } 
+    "TEXTURING" {
+    "opéra"
+  }
+    "TITLE_SEQUENCE_DESIGNER" {
+    "romance"
+  }
+    "UNIT_MANAGER" {
+    "science fiction"
+  }
+    "VISUAL_DEVELOPMENT" {
+    "performance"
+  }
+    "VISUAL_EFFECTS_CINEMATOGRAPHER" {
+    "série télévisée"
+  }
+    "VISUAL_EFFECTS_COORDINATOR" {
+    "événement sportif"
+  }
+    "VISUAL_EFFECTS_DIRECTOR" {
+    "espion"
+  }
+    "VISUAL_EFFECTS_EDITOR" {
+    "thriller"
+  }
+    "VISUAL_EFFECTS_SUPERVISOR" {
+    "film de guerre"
+  }
+    "VISUAL_EFFECTS_SUPERVISOR_PRODUCTION" {
+    "série web"
+  }
+    "VOICE_COACHING" {
+    "western"
+  }
+    "WARDROBE" {
+    "action"
+  }
+    "WEAPONS_MASTER" {
+    "aventure"
+  }
+    "WILDLIFE_PHOTOGRAPHY" {
+    "animation"
+  }
+    "CO_DIRECTOR" {
+    "biopic"
+  }
+    "CREATOR_SHOWRUNNER" {
+    "bollywood"
+  }
+    "DIRECTOR" {
+    "dessin animé"
+  }
+    "SHOWRUNNER" {
+    "classique"
+  }
+    "PRESS_AGENT" {
+    "comédie"
+  }
+    "PUBLIC_RELATIONS" {
+    "comédie dramatique"
+  }  
+  "SALES_AGENT" {
+    "concert"
+  } 
+  "ADDITIONAL_MUSIC" {
+    "détective"
+  }
+    "ADDITIONAL_MUSIC_COMPOSER" {
+    "divers"
+  }
+    "LYRICIST" {
+    "documentaire"
+  }
+    "MUSIC_COMPOSER" {
+    "drame"
+  }
+    "MUSIC_COMPOSER_THEME_SONG" {
+    "érotique"
+  }
+    "MUSIC_COORDINATOR" {
+    "experimental"
+  }  
+    "MUSIC_EDITOR" {
+    "famille"
+  }  
+    "MUSIC_MIXING" {
+    "fantasie"
+  } 
+    "MUSIC_PRODUCER" {
+    "historique"
+  } 
+    "MUSICAL_CONSULTANT" {
+    "epic historique"
+  } 
+    "MUSICAL_SUPERVISOR" {
+    "horreur"
+  } 
+    "SINGER" {
+    "judicaire"
+  } 
+    "SINGER_SONGS_FROM_THE_FILM_FRENCH_VERSION" {
+    "drama coréen"
+  } 
+    "THEME_SONG_PERFORMER" {
+    "arts martiaux"
+  }
+    "TITLE_SOUNDTRACK" {
+    "médical"
+  }
+    "ADJUNCT_EXECUTIVE_DIRECTOR" {
+    "soirée film"
+  } 
+    "BUSINESSMAN" {
+    "la musique"
+  } 
+    "DIRECTOR_OF_COMMUNICATIONS" {
+    "musical"
+  } 
+    "EXPLORER" {
+    "opéra"
+  }
+    "JOURNALIST" {
+    "romance"
+  }
+    "LAWYER" {
+    "science fiction"
+  }
+    "POET" {
+    "performance"
+  }
+    "POLITICIAN" {
+    "série télévisée"
+  }
+    "PRESENTER" {
+    "événement sportif"
+  }
+    "PSYCHIATRIST" {
+    "espion"
+  }
+    "SCIENTIST" {
+    "thriller"
+  }
+    "SPORTSMAN" {
+    "film de guerre"
+  }
+    "TV_PRODUCER" {
+    "série web"
+  }
+    "UNKNOWN_CREDITS" {
+    "western"
+  }
+      "ASSOCIATE_PRODUCER" {
+    "action"
+  }
+    "CO_PRODUCER" {
+    "aventure"
+  }
+    "EXECUTIVE_CO_PRODUCER" {
+    "animation"
+  }
+    "GENERAL_REPRESENTATIVE" {
+    "biopic"
+  }
+    "LINE_PRODUCER" {
+    "bollywood"
+  }
+    "PRODUCER" {
+    "dessin animé"
+  }
+    "ADAPTED_BY" {
+    "classique"
+  }
+    "AUTHOR" {
+    "comédie"
+  }
+    "BASED_ON" {
+    "comédie dramatique"
+  }  
+  "CO_SCREENWRITER" {
+    "concert"
+  } 
+  "COLLABORATION_TO_THE_SCENARIO" {
+    "détective"
+  }
+    "CREATOR" {
+    "divers"
+  }
+    "DIALOGUE_COACH" {
+    "documentaire"
+  }
+    "DIALOGUE_WRITER" {
+    "drame"
+  }
+    "GAGMAN" {
+    "érotique"
+  }
+    "ORIGINAL_CHARACTERS_BY" {
+    "experimental"
+  }  
+    "ORIGINAL_IDEA" {
+    "famille"
+  }  
+    "ORIGINAL_SCRIPT_BY" {
+    "fantasie"
+  } 
+    "SCREENWRITER" {
+    "historique"
+  } 
+    "STORY_EDITOR" {
+    "epic historique"
+  } 
+    "WRITING_DIRECTOR" {
+    "horreur"
+  } 
+}
+ 
